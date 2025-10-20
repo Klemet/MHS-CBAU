@@ -1,0 +1,331 @@
+{
+  "BB": {
+	"nom_complet": "Bouleau à papier (blanc)",
+	"tolerance_ombre": "Intolérant",
+	"source_url": "https://aimfc.rncan.gc.ca/fr/arbres/fiche/16",
+	"source_citation_index": 7
+	  },
+  "BG": {
+    "nom_complet": "Bouleau gris (à feuilles de peuplier)",
+    "tolerance_ombre": "Intolérant",
+    "source_url": "https://aimfc.rncan.gc.ca/fr/arbres/fiche/17",
+    "source_citation_index": 2
+  },
+  "BJ": {
+    "nom_complet": "Bouleau jaune",
+    "tolerance_ombre": "Tolérant",
+    "source_url": "https://aimfc.rncan.gc.ca/fr/arbres/fiche/15",
+    "source_citation_index": 4
+  },
+  "BP": {
+    "nom_complet": "Bouleau à papier (blanc)",
+    "tolerance_ombre": "Intolérant",
+    "source_url": "https://aimfc.rncan.gc.ca/fr/arbres/fiche/16",
+    "source_citation_index": 7
+  },
+  "CB": {
+    "nom_complet": "Chêne blanc",
+    "tolerance_ombre": "Tolérant",
+    "source_url": "https://aimfc.rncan.gc.ca/fr/arbres/fiche/63",
+    "source_citation_index": 9
+  },
+  "CC": {
+    "nom_complet": "Caryer cordiforme",
+    "tolerance_ombre": "Tolérant",
+    "source_url": "https://dua3m7xvptjbw.cloudfront.net/documents/general/Fiches-darbres-2023.pdf",
+    "source_citation_index": 141,
+    "note": "Exposition indiquée « ombre ou mi-ombre » dans la fiche; donc classé Tolérant."
+  },
+  "CG": {
+    "nom_complet": "Chêne à gros fruits",
+    "tolerance_ombre": "Tolérant",
+    "source_url": "https://www.afsq.org/fr/chene-a-gros-fruits",
+    "source_citation_index": 19
+  },
+  "CH": {
+    "nom_complet": "Chênes",
+    "tolerance_ombre": "Tolérant",
+    "source_url": "https://nature-action.qc.ca/pamoc/pdfs/essence_ombre_lumiere.pdf",
+    "source_citation_index": 24,
+    "note": "Catégorie générique. Plusieurs chênes sont de tolérance intermédiaire (p. ex. chêne rouge, chêne blanc)."
+  },
+  "CI": {
+    "nom_complet": "Chêne bicolore",
+    "tolerance_ombre": "Tolérant",
+    "source_url": "https://www.afsq.org/fr/chene-bicolore",
+    "source_citation_index": 17
+  },
+  "CR": {
+    "nom_complet": "Chêne rouge",
+    "tolerance_ombre": "Tolérant",
+    "source_url": "https://nature-action.qc.ca/pamoc/pdfs/essence_ombre_lumiere.pdf",
+    "source_citation_index": 24
+  },
+  "CT": {
+    "nom_complet": "Cerisier tardif",
+    "tolerance_ombre": "Intolérant",
+    "source_url": "https://aimfc.rncan.gc.ca/fr/arbres/fiche/60",
+    "source_citation_index": 25
+  },
+  "EA": {
+    "nom_complet": "Érable argenté",
+    "tolerance_ombre": "Tolérant",
+    "source_url": "https://aimfc.rncan.gc.ca/fr/arbres/fiche/85",
+    "source_citation_index": 27
+  },
+  "EB": {
+    "nom_complet": "Épinette blanche",
+    "tolerance_ombre": "Tolérant",
+    "source_url": "https://aimfc.rncan.gc.ca/fr/arbres/fiche/38",
+    "source_citation_index": 32
+  },
+  "EE": {
+    "nom_complet": "Pessière à épinettes noires ou rouges",
+    "tolerance_ombre": "Tolérant",
+    "source_url": "https://aimfc.rncan.gc.ca/fr/arbres/fiche/38",
+    "source_citation_index": 32
+  },
+  "EI": {
+    "nom_complet": "Érable noir",
+    "tolerance_ombre": "Tolérant",
+    "source_url": "https://aimfc.rncan.gc.ca/fr/arbres/fiche/82",
+    "source_citation_index": 37
+  },
+  "EN": {
+    "nom_complet": "Épinette noire",
+    "tolerance_ombre": "Tolérant",
+    "source_url": "https://aimfc.rncan.gc.ca/fr/arbres/fiche/39",
+    "source_citation_index": 39
+  },
+  "EO": {
+    "nom_complet": "Érable rouge",
+    "tolerance_ombre": "Tolérant",
+    "source_url": "https://aimfc.rncan.gc.ca/fr/arbres/fiche/84",
+    "source_citation_index": 43
+  },
+  "EP": {
+    "nom_complet": "Épinettes noire et rouge",
+    "tolerance_ombre": "Tolérant",
+    "source_url": "https://aimfc.rncan.gc.ca/fr/arbres/fiche/41",
+    "source_citation_index": 48,
+    "note": "Regroupement. L’épinette rouge est très tolérante; l’épinette noire tolère plus ou moins l’ombre."
+  },
+  "ER": {
+    "nom_complet": "Érables",
+    "tolerance_ombre": "Tolérant",
+    "source_url": "https://nature-action.qc.ca/pamoc/pdfs/essence_ombre_lumiere.pdf",
+    "source_citation_index": 57,
+    "note": "Catégorie générique. De nombreuses espèces (p. ex. érable à sucre, érable rouge, érable noir) tolèrent l’ombre."
+  },
+  "ES": {
+    "nom_complet": "Érable à sucre",
+    "tolerance_ombre": "Tolérant",
+    "source_url": "https://www.afsq.org/fr/erable-a-sucre",
+    "source_citation_index": 52
+  },
+  "EU": {
+    "nom_complet": "Épinette rouge",
+    "tolerance_ombre": "Tolérant",
+    "source_url": "https://aimfc.rncan.gc.ca/fr/arbres/fiche/41",
+    "source_citation_index": 48
+  },
+  "EV": {
+    "nom_complet": "Épinette de Norvège",
+    "tolerance_ombre": "Tolérant",
+    "source_url": "https://www.afsq.org/fr/epinette-de-norvege",
+    "source_citation_index": 62
+  },
+  "FA": {
+    "nom_complet": "Frêne blanc (d'Amérique)",
+    "tolerance_ombre": "Tolérant",
+    "source_url": "https://aimfc.rncan.gc.ca/fr/arbres/fiche/26",
+    "source_citation_index": 66
+  },
+  "FO": {
+    "nom_complet": "Frêne noir",
+    "tolerance_ombre": "Tolérant",
+    "source_url": "https://www.afsq.org/fr/frene-noir",
+    "source_citation_index": 74
+  },
+  "FP": {
+    "nom_complet": "Frêne rouge (de Pennsylvanie)",
+    "tolerance_ombre": "Tolérant",
+    "source_url": "https://www.afsq.org/fr/frene-rouge",
+    "source_citation_index": 75
+  },
+  "FR": {
+    "nom_complet": "Frênes",
+    "tolerance_ombre": "Tolérant",
+    "source_url": "https://www.foretprivee.ca/wp-content/uploads/2018/12/Fiche1-Mauricie_feuillus-structures-irregulieres.pdf",
+    "source_citation_index": 64,
+    "note": "Catégorie générique. Plusieurs frênes montrent une tolérance intermédiaire à l’ombre."
+  },
+  "HG": {
+    "nom_complet": "Hêtre à grandes feuilles",
+    "tolerance_ombre": "Tolérant",
+    "source_url": "https://aimfc.rncan.gc.ca/fr/arbres/fiche/25",
+    "source_citation_index": 76
+  },
+  "ME": {
+    "nom_complet": "Mélèze européen",
+    "tolerance_ombre": "Intolérant",
+    "source_url": "https://foretvirtuelle.com/botanique%20plantes/Meleze%20Europe.php",
+    "source_citation_index": 80
+  },
+  "MH": {
+    "nom_complet": "Mélèze hybride",
+    "tolerance_ombre": "Intolérant",
+    "source_url": "https://comparaisondesessences.forets.gouv.qc.ca/arbre.php?id=19",
+    "source_citation_index": 87
+  },
+  "MJ": {
+    "nom_complet": "Mélèze japonais",
+    "tolerance_ombre": "Intolérant",
+    "source_url": "https://comparaisondesessences.forets.gouv.qc.ca/arbre.php?id=18",
+    "source_citation_index": 86
+  },
+  "ML": {
+    "nom_complet": "Mélèze laricin",
+    "tolerance_ombre": "Intolérant",
+    "source_url": "https://www.afsq.org/fr/articles-automne-2023/le-meleze-laricin-un-potentiel-allie-pour-la-productivite-des-forets-turbeuses",
+    "source_citation_index": 90
+  },
+  "NC": {
+    "nom_complet": "Noyer cendré",
+    "tolerance_ombre": "Intolérant",
+    "source_url": "https://aimfc.rncan.gc.ca/fr/arbres/fiche/30"
+  },
+  "NN": {
+    "nom_complet": "Noyer noir",
+    "tolerance_ombre": "Intolérant",
+    "source_url": "https://www.afsq.org/fr/noyer-noir",
+    "source_citation_index": 93
+  },
+  "OA": {
+    "nom_complet": "Orme d'Amérique",
+    "tolerance_ombre": "Tolérant",
+    "source_url": "https://aimfc.rncan.gc.ca/fr/arbres/fiche/76",
+    "source_citation_index": 101
+  },
+  "OR": {
+    "nom_complet": "Ormes",
+    "tolerance_ombre": "Tolérant",
+    "source_url": "https://aimfc.rncan.gc.ca/fr/arbres/fiche/76",
+    "source_citation_index": 101,
+    "note": "Catégorie générique. L’orme d’Amérique tolère modérément l’ombre; l’orme rouge est indiqué comme tolérant."
+  },
+  "PA": {
+    "nom_complet": "Peuplier baumier",
+    "tolerance_ombre": "Intolérant",
+    "source_url": "https://www.ontario.ca/fr/page/peuplier-baumier",
+    "source_citation_index": 105
+  },
+  "PB": {
+    "nom_complet": "Pin blanc",
+    "tolerance_ombre": "Tolérant",
+    "source_url": "https://comparaisondesessences.forets.gouv.qc.ca/arbre.php?id=12",
+    "source_citation_index": 126,
+    "note": "Classiquement « semi-tolérant »; mappé ici à « Tolérant »."
+  },
+  "PC": {
+    "nom_complet": "Pin rigide (des corbeaux)",
+    "tolerance_ombre": "Intolérant",
+    "source_url": "https://mffp.gouv.qc.ca/documents/forets/connaissances/recherche/Rap-Situation-pin-rigide.pdf",
+    "source_citation_index": 114
+  },
+  "PG": {
+    "nom_complet": "Pin gris",
+    "tolerance_ombre": "Intolérant",
+    "source_url": "https://aimfc.rncan.gc.ca/fr/arbres/fiche/43",
+    "source_citation_index": 119
+  },
+  "PH": {
+    "nom_complet": "Peuplier hybride",
+    "tolerance_ombre": "Intolérant",
+    "source_url": "https://www.foretprivee.ca/wp-content/uploads/2023/01/Guide-populiculture-au-Quebec-Reseau-ligniculture-Quebec.pdf",
+    "source_citation_index": 122
+  },
+  "PI": {
+    "nom_complet": "Pins naturels",
+    "tolerance_ombre": "Intolérant",
+    "source_url": "https://comparaisondesessences.forets.gouv.qc.ca/arbre.php?id=20",
+    "source_citation_index": 125,
+    "note": "Catégorie générique. La plupart des pins sont intolérants; le pin blanc est l’exception (semi-tolérant)."
+  },
+  "PL": {
+    "nom_complet": "Peuplier deltoïdes",
+    "tolerance_ombre": "Intolérant",
+    "source_url": "https://www.ontario.ca/fr/page/peuplier-deltoide",
+    "source_citation_index": 130
+  },
+  "PO": {
+    "nom_complet": "Peuplier européen",
+    "tolerance_ombre": "Intolérant",
+    "source_url": "https://fr.wikipedia.org/wiki/Populus_alba",
+    "source_citation_index": 136,
+    "note": "Espèce héliophile; classée ici Intolérant."
+  },
+  "PR": {
+    "nom_complet": "Pin rouge",
+    "tolerance_ombre": "Intolérant",
+    "source_url": "https://www.ontario.ca/fr/page/pin-rouge",
+    "source_citation_index": 140
+  },
+  "PS": {
+    "nom_complet": "Pin sylvestre",
+    "tolerance_ombre": "Intolérant",
+    "source_url": "https://comparaisondesessences.forets.gouv.qc.ca/arbre.php?id=20",
+    "source_citation_index": 125
+  },
+  "PT": {
+    "nom_complet": "Peuplier faux tremble",
+    "tolerance_ombre": "Intolérant",
+    "source_url": "https://www.afsq.org/fr/peuplier-faux-tremble",
+    "source_citation_index": 137
+  },
+  "PU": {
+    "nom_complet": "Pruche du Canada (de l'Est)",
+    "tolerance_ombre": "Tolérant",
+    "source_url": "https://aimfc.rncan.gc.ca/fr/arbres/fiche/75"
+  },
+  "SB": {
+    "nom_complet": "Sapin baumier",
+    "tolerance_ombre": "Tolérant",
+    "source_url": "https://comparaisondesessences.forets.gouv.qc.ca/arbre.php?id=7"
+  },
+  "SS": {
+    "nom_complet": "Sapinière",
+    "tolerance_ombre": "Tolérant",
+    "source_url": "https://comparaisondesessences.forets.gouv.qc.ca/arbre.php?id=7"
+  },
+  "SE": {
+    "nom_complet": "Sapin baumier et épinette blanche",
+    "tolerance_ombre": "Tolérant",
+    "source_url": "https://aimfc.rncan.gc.ca/fr/arbres/fiche/38",
+    "source_citation_index": 32,
+    "note": "Regroupement. L’épinette blanche est tolérante; le sapin baumier est généralement considéré tolérant (URL dédiée à fournir si souhaité)."
+  },
+  "TA": {
+    "nom_complet": "Tilleul d'Amérique",
+    "tolerance_ombre": "Tolérant",
+    "source_url": "https://aimfc.rncan.gc.ca/fr/arbres/fiche/74"
+  },
+  "TO": {
+    "nom_complet": "Thuya occidental",
+    "tolerance_ombre": "Tolérant",
+    "source_url": "https://comparaisondesessences.forets.gouv.qc.ca/arbre.php?id=15"
+  },
+  "PE": {
+    "nom_complet": "Peupliers naturels",
+    "tolerance_ombre": "Intolérant",
+    "source_url": "https://www.afsq.org/fr/peuplier-faux-tremble"
+  },
+  "FI": {
+    "nom_complet": "Feuillus intolérants à l'ombre",
+    "tolerance_ombre": "Intolérant"
+  },
+  "FT": {
+    "nom_complet": "Feuillus tolérants à l'ombre",
+    "tolerance_ombre": "Tolérant"
+  }
+}
