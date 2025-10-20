@@ -1,7 +1,8 @@
-<center>
-	<h1>MHS-CBAU (Magic Harvest Scripting - Canadian Business As Usual)</h1>
-	<img src="./logo/Logo_MHS-CBAU.svg" align="center">
-</center>
+<h1 align="center">MHS-CBAU (Magic Harvest Scripting - Canadian Business As Usual)</h1>
+
+<p align="center">
+  <img src="./logo/Logo_MHS-CBAU.svg">
+</p>
 
 </br></br>
 
