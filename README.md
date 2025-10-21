@@ -25,3 +25,8 @@ I recommand you do the following :
 - Use the scripts in this repository to generate the inputs for your own study area, using the [MHS-CBAU workshop]() (*coming soon*) as a guide.
 - (Optional but recommanded) use a Python interactive terminal (I recommand to use [Spyder](https://www.spyder-ide.org/)) to test the MHS-CBAU Python script outside of a LANDIS-II simulation to see if it works properly, and produces outputs that make sense for your study area. To do this, simply run a LANDIS-II simulation without MHS-CBAU activated (doing it for a single timestep is enough). Then, use the outputs of LANDIS-II and the debug mode of the MHS-CBAU Python script to test the script as if it was running during the timestep of LANDIS-II for which you have generated outputs.
 - Insert the scripts and pre-generated intputs for MHS-CBAU in your LANDIS-II simulation files to start using MHS-CBAU during your simulations.
+
+## Ackownledgments
+
+- LANDIS-II is made by the [LANDIS-II foundation](https://www.landis-ii.org/)
+- Wizard on the logo comes from [Freepik](https://www.freepik.com/free-vector/flat-halloween-witches-collection_18778222.htm#fromView=search&page=4&position=18&uuid=e50ee633-8349-42ca-bdde-45bfe43f7d6f&query=wizard) and has been edited.
