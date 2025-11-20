@@ -1,0 +1,38 @@
+
+============================================================
+RESULTS - AVERAGE ANNUAL HARVEST VOLUMES
+============================================================
+
+Average annual softwood harvest: 1779596.88 m³
+Average annual hardwood harvest: 1418493.34 m³
+
+Total average annual harvest: 3198090.22 m³
+
+Average annual area harvested with Commercial thinning: 1635.38 ha
+
+Average annual area harvested with Pre Commercial thinning: 0.00 ha
+
+------------------------------------------------------------
+Year-by-year breakdown:
+------------------------------------------------------------
+2000: Softwood=3470208.19 m³, Hardwood=1848962.89 m³, Com. Thinning=2275.13 ha, Pre-Com. Thinning=0.00 ha
+2001: Softwood=1899851.53 m³, Hardwood=1247311.59 m³, Com. Thinning=1549.71 ha, Pre-Com. Thinning=0.00 ha
+2002: Softwood=2996925.66 m³, Hardwood=1839138.94 m³, Com. Thinning=2435.62 ha, Pre-Com. Thinning=0.00 ha
+2003: Softwood=2324194.82 m³, Hardwood=1935592.77 m³, Com. Thinning=1872.00 ha, Pre-Com. Thinning=0.00 ha
+2004: Softwood=2472502.12 m³, Hardwood=2085737.30 m³, Com. Thinning=2021.82 ha, Pre-Com. Thinning=0.00 ha
+2005: Softwood=2052396.07 m³, Hardwood=1684967.71 m³, Com. Thinning=1645.42 ha, Pre-Com. Thinning=0.00 ha
+2006: Softwood=2021341.99 m³, Hardwood=1514072.78 m³, Com. Thinning=1684.55 ha, Pre-Com. Thinning=0.00 ha
+2007: Softwood=1746007.68 m³, Hardwood=1686782.69 m³, Com. Thinning=2010.98 ha, Pre-Com. Thinning=0.00 ha
+2008: Softwood=1522247.41 m³, Hardwood=1420961.50 m³, Com. Thinning=1565.93 ha, Pre-Com. Thinning=0.00 ha
+2009: Softwood=1243126.49 m³, Hardwood=1468843.87 m³, Com. Thinning=1919.48 ha, Pre-Com. Thinning=0.00 ha
+2010: Softwood=639124.73 m³, Hardwood=896500.51 m³, Com. Thinning=941.10 ha, Pre-Com. Thinning=0.00 ha
+2011: Softwood=873759.08 m³, Hardwood=1129029.58 m³, Com. Thinning=1441.78 ha, Pre-Com. Thinning=0.00 ha
+2012: Softwood=1541879.57 m³, Hardwood=1585235.93 m³, Com. Thinning=1852.22 ha, Pre-Com. Thinning=0.00 ha
+2013: Softwood=1837531.71 m³, Hardwood=1614245.89 m³, Com. Thinning=2236.86 ha, Pre-Com. Thinning=0.00 ha
+2014: Softwood=1020287.76 m³, Hardwood=1077325.47 m³, Com. Thinning=1226.30 ha, Pre-Com. Thinning=0.00 ha
+2015: Softwood=1195520.97 m³, Hardwood=1055949.45 m³, Com. Thinning=1204.55 ha, Pre-Com. Thinning=0.00 ha
+2016: Softwood=1470374.52 m³, Hardwood=1434489.55 m³, Com. Thinning=1468.14 ha, Pre-Com. Thinning=0.00 ha
+2017: Softwood=1696703.05 m³, Hardwood=992513.65 m³, Com. Thinning=1282.65 ha, Pre-Com. Thinning=0.00 ha
+2018: Softwood=2008132.24 m³, Hardwood=1199712.85 m³, Com. Thinning=1406.49 ha, Pre-Com. Thinning=0.00 ha
+2019: Softwood=1417851.74 m³, Hardwood=918505.99 m³, Com. Thinning=1088.23 ha, Pre-Com. Thinning=0.00 ha
+2020: Softwood=1921567.07 m³, Hardwood=1152479.32 m³, Com. Thinning=1213.99 ha, Pre-Com. Thinning=0.00 ha

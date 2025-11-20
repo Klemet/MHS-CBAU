@@ -10,7 +10,7 @@
 
 - First, create a shapefile containing your study landscape, and put it in /IntputData with the name study_landscape.shp (all files coming with the shapefile but with different extensions must have study_landscape as their name too). The script will detect it automatically. Your study landscape should be contained into a single Canadian province (and not accross two provinces or more); if that's not the case, you will get an error. If your study landscape is into several Canadian Provinces at once, either clip it, or cut it in half and run the scripts twice to get the estimates for each part the study landscape, and then sum the estimates together.
 
-- If running the scripts pyon a Digital Research Alliance/Compute Canada cluster :
+- If running the scripts on a Digital Research Alliance/Compute Canada cluster :
     - run 1.downloadFiles_installPythonEnv.py on your computer using Python, so as to download the input files on your computer.
 	- Then, upload all of the files of the folder on the cluster.
 	- Then, rename the words YOUR_CLUSTER_ACCOUNT_HERE and YOUR_EMAIL_HERE in the job script job_script_MHS-CBAU_VolumeTargetComputation.sh, and launch the script as a job using the "sbatch" command. Let the job run its course.

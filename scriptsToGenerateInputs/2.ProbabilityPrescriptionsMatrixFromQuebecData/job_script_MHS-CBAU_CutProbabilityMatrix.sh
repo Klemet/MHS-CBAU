@@ -10,16 +10,16 @@
 #SBATCH --ntasks=1 # number of MPI processes
 #SBATCH --mem=80GB
 #SBATCH --cpus-per-task=1
-#SBATCH --job-name=MHS-CBAU_VolumeTargetComputation
+#SBATCH --job-name=MHS-CBAU_CutProbabilityMatrix
 #SBATCH --output=%x-%j.out
 
 # Loading packages
 module load python
 module load arrow
 
-# Switching to SLURM temp folder for faster
+# Switching to SLURM temp folder for faster computing
 startingFolder=$(pwd)
-cp -r startingFolder $SLURM_TMPDIR
+cp -r $startingFolder/. $SLURM_TMPDIR
 cd $SLURM_TMPDIR/
 
 # Creating Python virtual environment
@@ -36,6 +36,6 @@ deactivate
 rm -r PythonEnv
 
 # Copying the files back to where we started
-cp -r $SLURM_TMPDIR startingFolder
+cp -r $SLURM_TMPDIR/. $startingFolder
 
 echo Job is over !

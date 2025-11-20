@@ -6,7 +6,7 @@
 #SBATCH --mail-type=FAIL
 #SBATCH --mail-type=REQUEUE
 #SBATCH --mail-type=ALL
-#SBATCH --time=02-00:00 # time (DD-HH:MM)
+#SBATCH --time=00-06:00 # time (DD-HH:MM)
 #SBATCH --ntasks=1 # number of MPI processes
 #SBATCH --mem=40GB
 #SBATCH --cpus-per-task=1
@@ -18,9 +18,9 @@ module load python
 module load arrow
 module load gdal
 
-# Switching to SLURM temp folder for faster
+# Switching to SLURM temp folder for faster computing
 startingFolder=$(pwd)
-cp -r startingFolder $SLURM_TMPDIR
+cp -r $startingFolder/. $SLURM_TMPDIR
 cd $SLURM_TMPDIR/
 
 # Creating Python virtual environment
@@ -38,6 +38,6 @@ deactivate
 rm -r PythonEnv
 
 # Copying the files back to where we started
-cp -r $SLURM_TMPDIR startingFolder
+cp -r $SLURM_TMPDIR/. $startingFolder
 
 echo Job is over !

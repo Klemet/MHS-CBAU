@@ -9,6 +9,8 @@ from pathlib import Path
 from osgeo import gdal, gdalconst, osr
 import tempfile
 import os
+import re
+import json
 
 def get_province_from_landscape(provinces_shapefile='./InputData/ne_50m_admin_1_states_provinces.shp', 
                                  landscape_shapefile='./InputData/study_landscape.shp'):
@@ -84,6 +86,7 @@ def get_thinning_areas(year, province):
     """
     # Read CSV files
     # Had to precise encoding as it's not UTF-8
+    # WARNING : Area in these files are in hectares !
     harvesting_df = pd.read_csv("./InputData/NationalForestryDatabase/NFD_Area_harvested_by_ownership_and_harvesting_method.csv", encoding='ISO-8859-1')
     tending_df = pd.read_csv("./InputData/NationalForestryDatabase/NFD_Area_of_stand_tending_by_ownership_treatment.csv", encoding='ISO-8859-1')
 
@@ -99,7 +102,7 @@ def get_thinning_areas(year, province):
     precommercial_mask = (
         (tending_df['Year'] == year) &
         (tending_df['Jurisdiction'] == province) &
-        (tending_df['Treatment'] == 'Precommercial thinning')
+        (tending_df['Method'] == 'Precommercial thinning')
     )
     precommercial_thinning = tending_df[precommercial_mask]['Area (hectares)'].sum()
 
@@ -434,6 +437,40 @@ def main():
                 print(f"{int(row['Year'])}: Softwood={row['Softwood_m3']:.2f} m³, Hardwood={row['Hardwood_m3']:.2f} m³, Com. Thinning={row['Commercial Thinning Area Ha']:.2f} ha, Pre-Com. Thinning={row['Pre Commercial Thinning Area Ha']:.2f} ha", file=f)
         else:
             print("\nNo results to display - no years were successfully processed.", file=f)
+            
+            
+    # export everything into a json file
+
+
+    # Read the file
+    with open('AnnualHarvestAnalysis_Output.txt', 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    # Extract values using regex
+    softwood_match = re.search(r'Average annual softwood harvest:\s*([\d.]+)\s*m³', content)
+    hardwood_match = re.search(r'Average annual hardwood harvest:\s*([\d.]+)\s*m³', content)
+    commercial_match = re.search(r'Average annual area harvested with Commercial thinning:\s*([\d.]+)\s*ha', content)
+    precommercial_match = re.search(r'Average annual area harvested with Pre Commercial thinning:\s*([\d.]+)\s*ha', content)
+
+    # Build dictionary
+    harvest_data = {
+        "volume": {
+            "softwood": float(softwood_match.group(1)) if softwood_match else 0.0,
+            "hardwood": float(hardwood_match.group(1)) if hardwood_match else 0.0
+        },
+        "area": {
+            "Commercial-thinning": float(commercial_match.group(1)) if commercial_match else 0.0,
+            "Pre-commercial-thinning": float(precommercial_match.group(1)) if precommercial_match else 0.0
+        }
+    }
+
+    # Export to JSON
+    with open('annualHarvestTargets.json', 'w', encoding='utf-8') as f:
+        json.dump(harvest_data, f, indent=4)
+
+    print("Data exported to harvestTargets.json")
+    print(json.dumps(harvest_data, indent=4))
+
 
 if __name__ == "__main__":
     main()

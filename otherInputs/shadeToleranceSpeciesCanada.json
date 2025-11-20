@@ -1,0 +1,972 @@
+{
+  "ABIE.AMA": {
+    "common_name_en": "amabilis fir",
+    "common_name_fr": "sapin gracieux",
+    "scientific_name": "Abies amabilis",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/forestry/tree-species-selection/silvics_ba.pdf",
+      "note": "One of the most shade-tolerant conifers; classed as very tolerant of shade."
+    }
+  },
+  "ABIE.BAL": {
+    "common_name_en": "balsam fir",
+    "common_name_fr": "sapin baumier",
+    "scientific_name": "Abies balsamea",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://aimfc.rncan.gc.ca/fr/arbres/fiche/38",
+      "note": ""
+    }
+  },
+  "ABIE.BIF": {
+    "common_name_en": "Rocky Mountain alpine fir",
+    "common_name_fr": "sapin bifolié",
+    "scientific_name": "Abies bifolia",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/forestry/tree-species-selection/silvics_bl.pdf",
+      "note": "Seems treated as a variant of lasiocarpa (https://en.wikipedia.org/wiki/Abies_lasiocarpa), hence treated as such."
+    }
+  },
+  "ABIE.GRA": {
+    "common_name_en": "grand fir",
+    "common_name_fr": "sapin grandissime",
+    "scientific_name": "Abies grandis",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://www.fs.usda.gov/database/feis/plants/tree/abigra/all.html",
+      "note": "According to source, shade-tolerant enough to establish and grow beneath an open forest canopy."
+    }
+  },
+  "ABIE.LAS": {
+    "common_name_en": "subalpine fir",
+    "common_name_fr": "sapin subalpin",
+    "scientific_name": "Abies lasiocarpa",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/forestry/tree-species-selection/silvics_bl.pdf",
+      "note": ""
+    }
+  },
+  "CHAM.NOO": {
+    "common_name_en": "yellow-cedar",
+    "common_name_fr": "chamaecyparis jaune",
+    "scientific_name": "Chamaecyparis nootkatensis",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://treecanada.ca/resources/trees-of-canada/yellow-cedar-chamaecyparis-nootkatensis/",
+      "note": ""
+    }
+  },
+  "JUNI.VIR": {
+    "common_name_en": "Eastern redcedar",
+    "common_name_fr": "genévrier de Virginie",
+    "scientific_name": "Juniperus virginiana",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://plants.ces.ncsu.edu/plants/juniperus-virginiana/",
+      "note": "According to source, It only tolerates shade when it is extremely young."
+    }
+  },
+  "LARI.LAR": {
+    "common_name_en": "Tamarack",
+    "common_name_fr": "mélèze laricin",
+    "scientific_name": "Larix laricina",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://www.afsq.org/fr/articles-automne-2023/le-meleze-laricin-un-potentiel-allie-pour-la-productivite-des-forets-turbeuses",
+      "note": "Pionneer species, intolerant to shade according to source."
+    }
+  },
+  "LARI.LYA": {
+    "common_name_en": "subalpine larch",
+    "common_name_fr": "mélèze subalpin",
+    "scientific_name": "Larix lyallii",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/forestry/tree-species-selection/silvics_la.pdf",
+      "note": ""
+    }
+  },
+  "LARI.OCC": {
+    "common_name_en": "Western larch",
+    "common_name_fr": "mélèze de l'Ouest",
+    "scientific_name": "Larix occidentalis",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/forestry/tree-species-selection/silvics_lw.pdf",
+      "note": ""
+    }
+  },
+  "PICE.ENG": {
+    "common_name_en": "Engelmann spruce",
+    "common_name_fr": "épinette d'Engelmann",
+    "scientific_name": "Picea engelmannii",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/forestry/tree-species-selection/silvics_se.pdf",
+      "note": "Moderetly tolerant."
+    }
+  },
+  "PICE.GLA": {
+    "common_name_en": "white spruce",
+    "common_name_fr": "épinette blanche",
+    "scientific_name": "Picea glauca",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://aimfc.rncan.gc.ca/fr/arbres/fiche/38",
+      "note": ""
+    }
+  },
+  "PICE.MAR": {
+    "common_name_en": "black spruce",
+    "common_name_fr": "épinette noire",
+    "scientific_name": "Picea mariana",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://aimfc.rncan.gc.ca/fr/arbres/fiche/39",
+      "note": ""
+    }
+  },
+  "PICE.RUB": {
+    "common_name_en": "red spruce",
+    "common_name_fr": "épinette rouge",
+    "scientific_name": "Picea rubens",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://aimfc.rncan.gc.ca/fr/arbres/fiche/41",
+      "note": ""
+    }
+  },
+  "PICE.SIT": {
+    "common_name_en": "Sitka spruce",
+    "common_name_fr": "épinette de Sitka",
+    "scientific_name": "Picea sitchensis",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://www.fs.usda.gov/database/feis/plants/tree/picsit/all.html",
+      "note": "Sources says that it is a shade-intolerant species that is both a pioneer and a climax species. I'm putting as intolerant."
+    }
+  },
+  "PINU.ALB": {
+    "common_name_en": "whitebark pine",
+    "common_name_fr": "pin à blanche écorce",
+    "scientific_name": "Pinus albicaulis",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://comparaisondesessences.forets.gouv.qc.ca/arbre.php?id=20",
+      "note": ""
+    }
+  },
+  "PINU.BAN": {
+    "common_name_en": "jack pine",
+    "common_name_fr": "pin gris",
+    "scientific_name": "Pinus banksiana",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://tidcf.nrcan.gc.ca/en/trees/factsheet/43",
+      "note": ""
+    }
+  },
+  "PINU.CON": {
+    "common_name_en": "lodgepole pine",
+    "common_name_fr": "pin tordu",
+    "scientific_name": "Pinus contorta",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://www2.gov.bc.ca/gov/content/industry/forestry/managing-our-forest-resources/silviculture/tree-species-selection/tree-species-compendium-index/lodgepole-pine",
+      "note": "Low light tolerance; only slightly shade-tolerant in the driest climates according to source. Will treat as intolerant here."
+    }
+  },
+  "PINU.FLE": {
+    "common_name_en": "limber pine",
+    "common_name_fr": "pin flexible",
+    "scientific_name": "Pinus flexilis",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://en.wikipedia.org/wiki/Pinus_flexilis",
+      "note": "Source is wikipedia, but shade tolerance information looks backed up."
+    }
+  },
+  "PINU.MON": {
+    "common_name_en": "Western white pine",
+    "common_name_fr": "pin argenté",
+    "scientific_name": "Pinus monticola",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://tidcf.nrcan.gc.ca/en/trees/factsheet/292",
+      "note": "Moderately shade-tolerant."
+    }
+  },
+  "PINU.MUR": {
+    "common_name_en": "lodgepole x jack pine",
+    "common_name_fr": "pin tordu x pin gris",
+    "scientific_name": "Pinus xmurraybanksiana",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://www2.gov.bc.ca/gov/content/industry/forestry/managing-our-forest-resources/silviculture/tree-species-selection/tree-species-compendium-index/lodgepole-pine",
+      "note": "Inferred from parents: lodgepole pine has low light tolerance; jack pine is shade-intolerant. Classified here as Intolerant."
+    }
+  },
+  "PINU.PON": {
+    "common_name_en": "Ponderosa pine",
+    "common_name_fr": "pin ponderosa",
+    "scientific_name": "Pinus ponderosa",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://www.srs.fs.usda.gov/pubs/misc/ag_654/volume_1/pinus/ponderosa.htm",
+      "note": ""
+    }
+  },
+  "PINU.RES": {
+    "common_name_en": "red pine",
+    "common_name_fr": "pin rouge",
+    "scientific_name": "Pinus resinosa",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://www.nation.on.ca/sites/default/files/Red%20Pine.pdf",
+      "note": ""
+    }
+  },
+  "PINU.RIG": {
+    "common_name_en": "pitch pine",
+    "common_name_fr": "pin rigide",
+    "scientific_name": "Pinus rigida",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://www.fs.usda.gov/nrs/atlas/tree/resources/lhdr/lhdr_126.html",
+      "note": ""
+    }
+  },
+  "PINU.STR": {
+    "common_name_en": "eastern white pine",
+    "common_name_fr": "pin blanc",
+    "scientific_name": "Pinus strobus",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://www.ontario.ca/page/eastern-white-pine",
+      "note": "grows best in full sun but young trees can tolerate some shade according to source. Put as shade tolerant."
+    }
+  },
+  "PSEU.MEN": {
+    "common_name_en": "Douglas-fir",
+    "common_name_fr": "Douglas vert",
+    "scientific_name": "Pseudotsuga menziesii",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://tidcf.nrcan.gc.ca/en/trees/factsheet/122",
+      "note": "Requires some shade only in the first year, then thrives in sunlight; less shade-tolerant than associates\u00e2\u20ac\u201dclassified as Intolerant."
+    }
+  },
+  "TAXU.BRE": {
+    "common_name_en": "western yew",
+    "common_name_fr": "if de l'Ouest",
+    "scientific_name": "Taxus brevifolia",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://www2.gov.bc.ca/gov/content/industry/forestry/managing-our-forest-resources/silviculture/tree-species-selection/tree-species-compendium-index/western-yew",
+      "note": ""
+    }
+  },
+  "THUJ.OCC": {
+    "common_name_en": "eastern white-cedar",
+    "common_name_fr": "thuya occidental",
+    "scientific_name": "Thuja occidentalis",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://www.ontario.ca/page/eastern-white-cedar",
+      "note": "Source says that it tolerates some shade. Put as tolerant for now."
+    }
+  },
+  "THUJ.PLI": {
+    "common_name_en": "western redcedar",
+    "common_name_fr": "thuya géant",
+    "scientific_name": "Thuja plicata",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://www.fs.usda.gov/database/feis/plants/tree/thupli/all.html",
+      "note": ""
+    }
+  },
+  "TSUG.CAN": {
+    "common_name_en": "eastern hemlock",
+    "common_name_fr": "pruche du Canada",
+    "scientific_name": "Tsuga canadensis",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://plants.usda.gov/DocumentLibrary/plantguide/pdf/pg_tsca.pdf",
+      "note": "Among the most shade-tolerant tree species; can persist in understory for centuries. 252"
+    }
+  },
+  "TSUG.HET": {
+    "common_name_en": "western hemlock",
+    "common_name_fr": "pruche de l'Ouest",
+    "scientific_name": "Tsuga heterophylla",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://dnr.wa.gov/sites/default/files/2025-03/lm_hcp_west_oldgrowth_guide_wh_hires.pdf",
+      "note": ""
+    }
+  },
+  "TSUG.MER": {
+    "common_name_en": "mountain hemlock",
+    "common_name_fr": "pruche subalpine",
+    "scientific_name": "Tsuga mertensiana",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://www.fs.usda.gov/database/feis/plants/tree/tsumer/all.html",
+      "note": ""
+    }
+  },
+  "ACER.CIR": {
+    "common_name_en": "vine maple",
+    "common_name_fr": "érable circiné",
+    "scientific_name": "Acer circinatum",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://cfcg.forestry.ubc.ca/resources/species-reports/vine-maple/",
+      "note": "Shade-tolerant understory species."
+    }
+  },
+  "ACER.MAC": {
+    "common_name_en": "bigleaf maple",
+    "common_name_fr": "érable à grandes feuilles",
+    "scientific_name": "Acer macrophyllum",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/forestry/tree-species-selection/silvics_mb.pdf",
+      "note": "Source says moderatly tolerant in first stages of life. Will put as tolerant, but disputable."
+    }
+  },
+  "ACER.NEG": {
+    "common_name_en": "Manitoba maple (box-elder)",
+    "common_name_fr": "érable négondo (à Giguère)",
+    "scientific_name": "Acer negundo",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://www.fs.usda.gov/database/feis/plants/tree/aceneg/all.html",
+      "note": "Moderately shade tolerant; can establish under pioneers but does not reproduce in its own dense shade. Mapped to Tolerant for now."
+    }
+  },
+  "ACER.PEN": {
+    "common_name_en": "striped maple",
+    "common_name_fr": "érable de Pennsylvanie",
+    "scientific_name": "Acer pensylvanicum",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://tidcf.nrcan.gc.ca/en/trees/factsheet/83",
+      "note": ""
+    }
+  },
+  "ACER.RUB": {
+    "common_name_en": "red maple",
+    "common_name_fr": "érable rouge",
+    "scientific_name": "Acer rubrum",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://aimfc.rncan.gc.ca/fr/arbres/fiche/84",
+      "note": ""
+    }
+  },
+  "ACER.SAC": {
+    "common_name_en": "silver maple",
+    "common_name_fr": "érable argenté",
+    "scientific_name": "Acer saccharinum",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://aimfc.rncan.gc.ca/fr/arbres/fiche/85",
+      "note": ""
+    }
+  },
+  "ACER.SAH": {
+    "common_name_en": "sugar maple",
+    "common_name_fr": "érable à sucre",
+    "scientific_name": "Acer saccharum",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://www.afsq.org/fr/erable-a-sucre",
+      "note": ""
+    }
+  },
+  "ACER.SPI": {
+    "common_name_en": "mountain maple",
+    "common_name_fr": "érable à épis",
+    "scientific_name": "Acer spicatum",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://www.fs.usda.gov/database/feis/plants/shrub/acespi/all.html",
+      "note": ""
+    }
+  },
+  "ALNU.INC": {
+    "common_name_en": "gray alder",
+    "common_name_fr": "aulne rugueux",
+    "scientific_name": "Alnus incana",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://www.fs.usda.gov/database/feis/plants/tree/alninc/all.html",
+      "note": "Tolerance low shade; put as intolerant for now."
+    }
+  },
+  "ALNU.RUB": {
+    "common_name_en": "red alder",
+    "common_name_fr": "aulne rouge",
+    "scientific_name": "Alnus rubra",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://www2.gov.bc.ca/gov/content/industry/forestry/managing-our-forest-resources/silviculture/tree-species-selection/tree-species-compendium-index/red-alder",
+      "note": ""
+    }
+  },
+  "ALNU.RUG": {
+    "common_name_en": "speckled alder",
+    "common_name_fr": "aulne rugueux",
+    "scientific_name": "Alnus rugosa",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://plants.usda.gov/plant-profile/ALINR/characteristics",
+      "note": ""
+    }
+  },
+  "ARBU.MEN": {
+    "common_name_en": "arbutus",
+    "common_name_fr": "arbousier d'Amérique",
+    "scientific_name": "Arbutus menziesii",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://www.fs.usda.gov/database/feis/plants/tree/arbmen/all.html",
+      "note": "Pacific madrone has moderate to low shade tolerance according to source, and is often a pioneer. Will be put as intolerant."
+    }
+  },
+  "ASIM.TRI": {
+    "common_name_en": "pawpaw",
+    "common_name_fr": "asiminier trilobé",
+    "scientific_name": "Asimina triloba",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://research.fs.usda.gov/feis/species-reviews/asitri",
+      "note": "Pawpaw is tolerant of shade, but appears to die out in old-growth forests according to source (section Botanical and ecological caracteristics)."
+    }
+  },
+  "BETU.ALA": {
+    "common_name_en": "Alaska paper birch",
+    "common_name_fr": "bouleau d'Alaska",
+    "scientific_name": "Betula alaskana",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://www2.gov.bc.ca/gov/content/industry/forestry/managing-our-forest-resources/silviculture/tree-species-selection/tree-species-compendium-index/alaska-birch",
+      "note": "Alaskana is apparently a synonym of neoalaskana (see below; https://www.wildflower.org/plants/result.php?id_plant=BENE4). Classified as tolerant as neoalaskana."
+    }
+  },
+  "BETU.ALL": {
+    "common_name_en": "yellow birch",
+    "common_name_fr": "bouleau jaune",
+    "scientific_name": "Betula alleghaniensis",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://www.srs.fs.usda.gov/pubs/misc/ag_654/volume_2/betula/alleghaniensis.htm",
+      "note": "Generally intermediate shade tolerance (more tolerant than most birches); mapped to Tolerant"
+    }
+  },
+  "BETU.NEO": {
+    "common_name_en": "Alaska paper birch",
+    "common_name_fr": "bouleau d'Alaska",
+    "scientific_name": "Betula neoalaskana",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://www2.gov.bc.ca/gov/content/industry/forestry/managing-our-forest-resources/silviculture/tree-species-selection/tree-species-compendium-index/alaska-birch",
+      "note": ""
+    }
+  },
+  "BETU.OCC": {
+    "common_name_en": "water birch",
+    "common_name_fr": "bouleau fontinal",
+    "scientific_name": "Betula occidentalis",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://plants.usda.gov/DocumentLibrary/plantguide/pdf/pg_beoc2.pdf",
+      "note": "Described as very shade tolerant."
+    }
+  },
+  "BETU.PAP": {
+    "common_name_en": "white birch",
+    "common_name_fr": "bouleau à papier (blanc)",
+    "scientific_name": "Betula papyrifera",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://www.srs.fs.usda.gov/pubs/misc/ag_654/volume_2/betula/papyrifera.htm",
+      "note": "Classed as shade-intolerant; a pioneer species that establishes after disturbance."
+    }
+  },
+  "BETU.POP": {
+    "common_name_en": "gray birch",
+    "common_name_fr": "bouleau gris",
+    "scientific_name": "Betula populifolia",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://aimfc.rncan.gc.ca/fr/arbres/fiche/17",
+      "note": ""
+    }
+  },
+  "CARP.CAR": {
+    "common_name_en": "blue-beech",
+    "common_name_fr": "charme de Caroline",
+    "scientific_name": "Carpinus caroliniana",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://plants.ces.ncsu.edu/plants/carpinus-caroliniana/",
+      "note": "Indicated as resistant to heavy shade."
+    }
+  },
+  "CARY.COR": {
+    "common_name_en": "bitternut hickory",
+    "common_name_fr": "caryer cordiforme",
+    "scientific_name": "Carya cordiformis",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://www.fs.usda.gov/database/feis/plants/tree/carcor/all.html",
+      "note": ""
+    }
+  },
+  "CAST.DEN": {
+    "common_name_en": "American chestnut",
+    "common_name_fr": "châtaignier d'Amérique",
+    "scientific_name": "Castanea dentata",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/recovery-strategies/american-chestnut-2019.html",
+      "note": "Described as a shade-tolerant forest tree in Canadian assessments."
+    }
+  },
+  "FAGU.GRA": {
+    "common_name_en": "American beech",
+    "common_name_fr": "hêtre à grandes feuilles",
+    "scientific_name": "Fagus grandifolia",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://aimfc.rncan.gc.ca/fr/arbres/fiche/25",
+      "note": ""
+    }
+  },
+  "FRAX.AME": {
+    "common_name_en": "white ash",
+    "common_name_fr": "frêne blanc",
+    "scientific_name": "Fraxinus americana",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://aimfc.rncan.gc.ca/en/trees/factsheet/26",
+      "note": ""
+    }
+  },
+  "FRAX.NIG": {
+    "common_name_en": "black ash",
+    "common_name_fr": "frêne noir",
+    "scientific_name": "Fraxinus nigra",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://www.afsq.org/fr/frene-noir",
+      "note": ""
+    }
+  },
+  "FRAX.PEN": {
+    "common_name_en": "red ash",
+    "common_name_fr": "frêne rouge",
+    "scientific_name": "Fraxinus pennsylvanica",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://www.afsq.org/fr/frene-rouge",
+      "note": ""
+    }
+  },
+  "GLED.TRI": {
+    "common_name_en": "honey-locust",
+    "common_name_fr": "févier épineux",
+    "scientific_name": "Gleditsia triacanthos",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://plants.usda.gov/DocumentLibrary/plantguide/pdf/pg_gltr.pdf",
+      "note": ""
+    }
+  },
+  "ILEX.VER": {
+    "common_name_en": "common winterberry",
+    "common_name_fr": "houx verticillata",
+    "scientific_name": "Ilex verticillata",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://plants.sc.egov.usda.gov/plant-profile/ILVE/characteristics",
+      "note": ""
+    }
+  },
+  "JUGL.CIN": {
+    "common_name_en": "butternut",
+    "common_name_fr": "noyer cendré",
+    "scientific_name": "Juglans cinerea",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://aimfc.rncan.gc.ca/fr/arbres/fiche/30",
+      "note": ""
+    }
+  },
+  "JUGL.NIG": {
+    "common_name_en": "black walnut",
+    "common_name_fr": "noyer noir",
+    "scientific_name": "Juglans nigra",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://www.afsq.org/fr/noyer-noir",
+      "note": ""
+    }
+  },
+  "MALU.COR": {
+    "common_name_en": "wild crab apple",
+    "common_name_fr": "pommier odorant",
+    "scientific_name": "Malus coronaria",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://plants.ces.ncsu.edu/plants/malus-coronaria/",
+      "note": "Crabapples prefer full sun but tolerate light shade; i'm putting it as intolerant."
+    }
+  },
+  "MALU.FUS": {
+    "common_name_en": "Pacific crab apple",
+    "common_name_fr": "pommier du Pacifique",
+    "scientific_name": "Malus fusca",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://plants.usda.gov/plant-profile/MAFU/characteristics",
+      "note": "Intermediate shade tolerance."
+    }
+  },
+  "NEMO.MUC": {
+    "common_name_en": "mountain-holly",
+    "common_name_fr": "némopanthe mucroné",
+    "scientific_name": "Nemopanthus mucronatus",
+    "shade_tolerance": {
+      "shade_tolerance": "Intolerant",
+      "source_url": "https://en.wikipedia.org/wiki/Ilex_mucronata",
+      "note": "Has a new name now, Ilex mucronata. Seem to prefer low shade or full sun. Put as intolerant."
+    }
+  },
+  "OSTR.VIR": {
+    "common_name_en": "ironwood (hop-hornbeam)",
+    "common_name_fr": "ostryer de Virginie",
+    "scientific_name": "Ostrya virginiana",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://hort.ifas.ufl.edu/trees/OSTVIRA.pdf",
+      "note": ""
+    }
+  },
+  "PLAT.OCC": {
+    "common_name_en": "sycamore",
+    "common_name_fr": "platane occidental",
+    "scientific_name": "Platanus occidentalis",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://www.srs.fs.usda.gov/pubs/misc/ag_654/volume_2/platanus/occidentalis.htm",
+      "note": "Intermediate shade tolerance; mapped to tolerant."
+    }
+  },
+  "POPU.AGU": {
+    "common_name_en": "narrowleaf cottonwood",
+    "common_name_fr": "peuplier à feuilles étroites",
+    "scientific_name": "Populus angustifolia",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://plants.usda.gov/DocumentLibrary/plantguide/pdf/cs_poan3.pdf",
+      "note": "Narrow-leaf cottonwood is a pioneer that colonizes sandbars and other fresh alluvium in areas of full sun according to source. Refers the need to full sun many times."
+    }
+  },
+  "POPU.BAL": {
+    "common_name_en": "balsam poplar",
+    "common_name_fr": "peuplier baumier",
+    "scientific_name": "Populus balsamifera",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://www.srs.fs.usda.gov/pubs/misc/ag_654/volume_2/populus/balsamifera.htm",
+      "note": "Early successional with low shade tolerance."
+    }
+  },
+  "POPU.DEL": {
+    "common_name_en": "eastern cottonwood",
+    "common_name_fr": "peuplier deltoïde",
+    "scientific_name": "Populus deltoides",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://www.srs.fs.usda.gov/pubs/misc/ag_654/volume_2/populus/deltoides.htm",
+      "note": "Very intolerant of shade."
+    }
+  },
+  "POPU.GRA": {
+    "common_name_en": "largetooth aspen",
+    "common_name_fr": "peuplier à grandes dents",
+    "scientific_name": "Populus grandidentata",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://www.srs.fs.usda.gov/pubs/misc/ag_654/volume_2/populus/grandidentata.htm",
+      "note": "Pioneer, very shade-intolerant."
+    }
+  },
+  "POPU.TRE": {
+    "common_name_en": "trembling aspen",
+    "common_name_fr": "peuplier faux-tremble",
+    "scientific_name": "Populus tremuloides",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://www.fs.usda.gov/database/feis/plants/tree/poptre/all.html",
+      "note": "Not shade tolerant."
+    }
+  },
+  "POPU.TRI": {
+    "common_name_en": "black cottonwood",
+    "common_name_fr": "peuplier de l'Ouest",
+    "scientific_name": "Populus trichocarpa",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://en.wikipedia.org/wiki/Populus_trichocarpa",
+      "note": "Source is wikipedia, but seems pretty complete."
+    }
+  },
+  "PRUN.EMA": {
+    "common_name_en": "bitter cherry",
+    "common_name_fr": "cerisier amer",
+    "scientific_name": "Prunus emarginata",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://plants.usda.gov/DocumentLibrary/plantguide/pdf/pg_prem.pdf",
+      "note": "Does not tolerate much shade; low shade tolerance."
+    }
+  },
+  "PRUN.PEN": {
+    "common_name_en": "pin cherry",
+    "common_name_fr": "cerisier de Pennsylvanie",
+    "scientific_name": "Prunus pensylvanica",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://www.fs.usda.gov/database/feis/plants/tree/prupen/all.html",
+      "note": "Shade-intolerant, short-lived pioneer."
+    }
+  },
+  "PRUN.SER": {
+    "common_name_en": "black cherry",
+    "common_name_fr": "cerisier tardif",
+    "scientific_name": "Prunus serotina",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://plants.usda.gov/DocumentLibrary/plantguide/pdf/pg_prse2.pdf",
+      "note": "Classed as shade-intolerant."
+    }
+  },
+  "PRUN.VIR": {
+    "common_name_en": "choke cherry",
+    "common_name_fr": "cerisier de Virginie",
+    "scientific_name": "Prunus virginiana",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://cfcg.forestry.ubc.ca/resources/species-reports/choke-cherry/",
+      "note": "Shade-tolerant; persists across many habitats."
+    }
+  },
+  "QUER.ALB": {
+    "common_name_en": "white oak",
+    "common_name_fr": "chêne blanc",
+    "scientific_name": "Quercus alba",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://www.srs.fs.usda.gov/pubs/misc/ag_654/volume_2/quercus/alba.htm",
+      "note": "Generally classed as intermediate; mapped to tolerant."
+    }
+  },
+  "QUER.BIC": {
+    "common_name_en": "swamp white oak",
+    "common_name_fr": "chêne bicolore",
+    "scientific_name": "Quercus bicolor",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://www.srs.fs.usda.gov/pubs/misc/ag_654/volume_2/quercus/bicolor.htm",
+      "note": "Intermediate shade tolerance; seedlings establish under moderate shade."
+    }
+  },
+  "QUER.GAR": {
+    "common_name_en": "Garry oak",
+    "common_name_fr": "chêne de Garry",
+    "scientific_name": "Quercus garryana",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://goert.ca/species/quercus-garryana/",
+      "note": "Shade-tolerant as seedlings but becomes shade-intolerant with age. I put it here as intolerant."
+    }
+  },
+  "QUER.MAC": {
+    "common_name_en": "bur oak",
+    "common_name_fr": "chêne à gros fruits",
+    "scientific_name": "Quercus macrocarpa",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://plants.usda.gov/DocumentLibrary/factsheet/pdf/fs_quma2.pdf",
+      "note": "Moderately shade tolerant, but also indicated as intolerant; mapped to intolerant."
+    }
+  },
+  "QUER.RUB": {
+    "common_name_en": "red oak",
+    "common_name_fr": "chêne rouge",
+    "scientific_name": "Quercus rubra",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://plants.usda.gov/DocumentLibrary/plantguide/pdf/pg_quru.pdf",
+      "note": "Intermediate shade tolerance, but often cannot establish under itself. I put it as tolerant for now."
+    }
+  },
+  "ROBI.PSE": {
+    "common_name_en": "black locust",
+    "common_name_fr": "robinier faux-acacia",
+    "scientific_name": "Robinia pseudoacacia",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://www.mdpi.com/1424-2818/16/12/773",
+      "note": "Shade-intolerant, early successional tree."
+    }
+  },
+  "SALI.BEB": {
+    "common_name_en": "Bebb willow",
+    "common_name_fr": "saule de Bebb",
+    "scientific_name": "Salix bebbiana",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://www.fs.usda.gov/database/feis/plants/tree/salbeb/all.html",
+      "note": ""
+    }
+  },
+  "SALI.DIS": {
+    "common_name_en": "pussy willow",
+    "common_name_fr": "saule discolore",
+    "scientific_name": "Salix discolor",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://www.fs.usda.gov/database/feis/plants/shrub/saldis/all.html",
+      "note": ""
+    }
+  },
+  "SALI.NIG": {
+    "common_name_en": "black willow",
+    "common_name_fr": "saule noir",
+    "scientific_name": "Salix nigra",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://plants.usda.gov/plant-profile/SANI/characteristics",
+      "note": ""
+    }
+  },
+  "SASS.ALB": {
+    "common_name_en": "Sassafras",
+    "common_name_fr": "sassafras officinale",
+    "scientific_name": "Sassafras albidum",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://hort.ifas.ufl.edu/database/documents/pdf/tree_fact_sheets/sasalba.pdf",
+      "note": "Moderately shade tolerant; grows best in full sun to part shade."
+    }
+  },
+  "SORB.AME": {
+    "common_name_en": "American mountain-ash",
+    "common_name_fr": "sorbier d'Amérique",
+    "scientific_name": "Sorbus americana",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://www.ontario.ca/page/american-mountain-ash",
+      "note": "Shade-tolerant; can persist into mature stands at low abundance."
+    }
+  },
+  "SORB.DEC": {
+    "common_name_en": "showy mountain-ash",
+    "common_name_fr": "sorbier des montagnes",
+    "scientific_name": "Sorbus decora",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://www.ontario.ca/page/showy-mountain-ash",
+      "note": "Tolerate some shade according to source. Put as tolerant for now."
+    }
+  },
+  "TILI.AME": {
+    "common_name_en": "Basswood",
+    "common_name_fr": "tilleul d'Amérique",
+    "scientific_name": "Tilia americana",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://www.srs.fs.usda.gov/pubs/misc/ag_654/volume_2/tilia/americana.htm",
+      "note": "Most accurately classed as tolerant of shade according to source."
+    }
+  },
+  "ULMU.AME": {
+    "common_name_en": "white elm",
+    "common_name_fr": "orme d'Amérique",
+    "scientific_name": "Ulmus americana",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://www.srs.fs.usda.gov/pubs/misc/ag_654/volume_2/ulmus/americana.htm",
+      "note": "Classified as moderatly tolerant."
+    }
+  },
+  "ULMU.RUB": {
+    "common_name_en": "red elm",
+    "common_name_fr": "orme rouge",
+    "scientific_name": "Ulmus rubra",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://research.fs.usda.gov/feis/species-reviews/ulmrub",
+      "note": "One of the more shade-tolerant elms."
+    }
+  },
+  "ULMU.THO": {
+    "common_name_en": "rock elm",
+    "common_name_fr": "orme liège",
+    "scientific_name": "Ulmus thomasii",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://www.srs.fs.usda.gov/pubs/misc/ag_654/volume_2/ulmus/thomasii.htm",
+      "note": "Overall classed as intermediate shade tolerance."
+    }
+  },
+  "LARI.DEC": {
+    "common_name_en": "European larch",
+    "common_name_fr": "mélèze d'Europe",
+    "scientific_name": "Larix decidua",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://www.euforgen.org/fileadmin/templates/euforgen.org/upload/Publications/Technical_guidelines/Technical_guidelines_Larix_decidua.pdf",
+      "note": ""
+    }
+  },
+  "LARI.KAE": {
+    "common_name_en": "Japanese larch",
+    "common_name_fr": "mélèze du Japon",
+    "scientific_name": "Larix kaempferi",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "Larix kaempferi",
+      "note": ""
+    }
+  },
+  "PICE.ABI": {
+    "common_name_en": "Norway spruce",
+    "common_name_fr": "épicéa commun",
+    "scientific_name": "Picea abies",
+    "shade_tolerance": {
+      "shade_tolerance": "tolerant",
+      "source_url": "https://www.fs.usda.gov/database/feis/plants/tree/picabi/all.html",
+      "note": ""
+    }
+  },
+  "PINU.SYL": {
+    "common_name_en": "Scots pine",
+    "common_name_fr": "pin sylvestre",
+    "scientific_name": "Pinus sylvestris",
+    "shade_tolerance": {
+      "shade_tolerance": "intolerant",
+      "source_url": "https://hort.ifas.ufl.edu/trees/PINSYLA.pdf",
+      "note": "Tree grows in full sun."
+    }
+  }
+}

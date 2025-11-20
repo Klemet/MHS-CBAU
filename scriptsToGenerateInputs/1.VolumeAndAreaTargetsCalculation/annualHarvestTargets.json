@@ -1,0 +1,10 @@
+{
+    "volume": {
+        "softwood": 1779596.88,
+        "hardwood": 1418493.34
+    },
+    "area": {
+        "Commercial-thinning": 1635.38,
+        "Pre-commercial-thinning": 7563.91
+    }
+}

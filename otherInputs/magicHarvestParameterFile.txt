@@ -1,0 +1,31 @@
+>> This template is made for use with the MHS-CBAU approach.
+>> See https://github.com/Klemet/MHS-CBAU for more.
+
+LandisData "Magic Harvest"
+
+>> You can change the timestep according to what you want to use in LANDIS-II.
+>> WARNING : The timestep you use should be the same as the one used for Biomass Succession,
+>> indicated in biomassHarvestParameterFileTemplate.txt.
+Timestep 5
+
+>> Here, input the the location of the temporary file that will be created by
+>> MHS-CBAU_MainScript.py and then used by Magic Harvest to re-load the parameters of Biomass Succession.
+>> This temporary file will be based on the content of biomassHarvestParameterFileTemplate.txt,
+>> but will be dynamically edited by MHS-CBAU_MainScript.py to control what Biomass Harvest will do.
+>> I recommand that you name this file biomassHarvestParameterFilePrepared.txt, and that you locate
+>> it in the same folder as biomassHarvestParameterFileTemplate.txt to keep things simple. But the choice
+>> is yours; it should not have any impact on your simulation.
+>> KEEP IN MIND : The path should be relative to the location of the main scenario file
+>> for your simulation. 
+HarvestExtensionParameterFile INSERT_PATH_TO_PREPARED_BIOMASS_PARAMETER_FILE/biomassHarvestParameterFilePrepared.txt
+
+>> Keep this as it is, as MHS-CBAU uses python scripts.
+ProcessToLaunch python
+
+>> WARNING : Here, you must replace "PATH_TO_MHS-CBAU_MainScript.py" with the
+>> path to the MHS-CBAU_MainScript.py script.
+>> KEEP IN MIND : The path should be relative to the location of the main scenario file
+>> for your simulation. 
+>> WARNING : Leave the {timestep} instruction. It's essential so that Magic Harvest gives
+>> the current time step to the script.
+ProcessArguments  "PATH_TO_MHS-CBAU_MainScript/MHS-CBAU_MainScript.py {timestep}"

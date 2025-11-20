@@ -25,3 +25,14 @@
 	- Run the python scripts 1 and 2 in a powershell or command prompt using the "python" command (e.g. "python 1.downloadInputFiles.py").
 	- Then, load the python environment in a terminal using .\PythonEnv\Scripts\Activate.ps1 if you are in a powershell on Windows, or .\PythonEnv\Scripts\activate.bat in a command prompt.
 	- Run script 3. You will need a lot of RAM for it, or a lot of space on a SSD so that windows can create a pagefile. When everything is done, you should find two output files : forest_cut_matrix.csv contains a matrix of frequency (per hectare of stands of a given forest type) for 4 cut categories of the National Forestry Database of Canada; but it also contains stands of unknown types, and a "others" section for all forest operations that were not cuts, or where unknown. Each number in this matrix is the percentage of surface in each category for all of the forest operation polygons in the harvest dataset. The file forest_cut_matrix_probabilities.csv removes the "others" or "unknown" categories, and expresses percentages for each given stand type (i.e. all percentage for a stand type/column are equal to 1). This second file is probably the one you will want.
+	
+	
+📊 RESULTS
+
+Here is the resulting matrix (you should normally obtain the same) in forest_cut_matrix_probabilities.csv :
+
+CUTTYPE						Even/Tol		Uneven/Tol		Even/Intol		Uneven/Intol
+Clearcut					0.9085			0.3044			0.9277			0.7244
+Seed Tree					0.0135			0.043			0.0097			0.0256
+Selection Cutting			0.0702			0.6408			0.0584			0.2436
+Shelterwood					0.0078			0.0118			0.0042			0.0064

@@ -13,23 +13,23 @@
   },
   "CB": {
     "french_name": "Coupe par bandes avec interbandes 7m et plus",
-    "english_category": "Selection Cutting"
+    "english_category": "Selection-cutting"
   },
   "CD": {
     "french_name": "Coupe en damier",
-    "english_category": "Selection Cutting"
+    "english_category": "Selection-cutting"
   },
   "CDL": {
     "french_name": "Coupe à diamètre limite",
-    "english_category": "Selection Cutting"
+    "english_category": "Selection-cutting"
   },
   "CE": {
     "french_name": "Coupe partielle et épidémie légère",
-    "english_category": "Selection Cutting"
+    "english_category": "Selection-cutting"
   },
   "CEA": {
     "french_name": "Coupe de préjardinage",
-    "english_category": "Selection Cutting"
+    "english_category": "Selection-cutting"
   },
   "CIP": {
     "french_name": "Coupe progressive irrégulière",
@@ -37,27 +37,27 @@
   },
   "CJ": {
     "french_name": "Coupe de jardinage",
-    "english_category": "Selection Cutting"
+    "english_category": "Selection-cutting"
   },
   "CJB": {
     "french_name": "Coupe de jardinage par bandes",
-    "english_category": "Selection Cutting"
+    "english_category": "Selection-cutting"
   },
   "CJG": {
     "french_name": "Coupe de jardinage par pied d'arbre ou groupe d'arbres",
-    "english_category": "Selection Cutting"
+    "english_category": "Selection-cutting"
   },
   "CJP": {
     "french_name": "Coupe de jardinage avec régénération par parquets",
-    "english_category": "Selection Cutting"
+    "english_category": "Selection-cutting"
   },
   "CJPG": {
     "french_name": "Coupe de jardinage par pied d'arbres et / ou groupe d'arbres",
-    "english_category": "Selection Cutting"
+    "english_category": "Selection-cutting"
   },
   "CJT": {
     "french_name": "Coupe de jardinage par trouées",
-    "english_category": "Selection Cutting"
+    "english_category": "Selection-cutting"
   },
   "CON": {
     "french_name": "Conversion de peuplement",
@@ -65,39 +65,39 @@
   },
   "CP": {
     "french_name": "Coupe partielle",
-    "english_category": "Selection Cutting"
+    "english_category": "Selection-cutting"
   },
   "CPC": {
     "french_name": "Coupe progressive d'ensemencement (résineux)",
-    "english_category": "Seed Tree"
+    "english_category": "Seed-tree"
   },
   "CPF": {
     "french_name": "Coupe progressive d'ensemencement (feuillu)",
-    "english_category": "Seed Tree"
+    "english_category": "Seed-tree"
   },
   "CPI": {
     "french_name": "Coupe partielle photo-interprétée",
-    "english_category": "Selection Cutting"
+    "english_category": "Selection-cutting"
   },
   "CPI_CP": {
     "french_name": "Coupe progressive irrégulière à couvert permanent",
-    "english_category": "Selection Cutting"
+    "english_category": "Selection-cutting"
   },
   "CPI_RL": {
     "french_name": "Coupe progressive irrégulière à régénération lente",
-    "english_category": "Selection Cutting"
+    "english_category": "Selection-cutting"
   },
   "CPI_TA": {
     "french_name": "Coupe progressive irrégulière par trouées agrandies",
-    "english_category": "Selection Cutting"
+    "english_category": "Selection-cutting"
   },
   "CPM": {
     "french_name": "Coupe progressive d'ensemencement (mélangé)",
-    "english_category": "Seed Tree"
+    "english_category": "Seed-tree"
   },
   "CPRS_BA-P": {
     "french_name": "Coupe avec protection de la régénération et des sols par bandes avec interbandes de 7m et plus",
-    "english_category": "Clearcut"
+    "english_category": "Clearcuttingting"
   },
   "CPR_BA": {
     "french_name": "Coupe progressive régulière par bandes",
@@ -113,19 +113,19 @@
   },
   "CPS": {
     "french_name": "Coupe progressive d'ensemencement",
-    "english_category": "Seed Tree"
+    "english_category": "Seed-tree"
   },
   "CPX": {
     "french_name": "Ancienne coupe partielle sans référence cartographique, dont l'année de réalisation est inconnue",
-    "english_category": "Selection Cutting"
+    "english_category": "Selection-cutting"
   },
   "CTR": {
     "french_name": "Coupe par trouées",
-    "english_category": "Selection Cutting"
+    "english_category": "Selection-cutting"
   },
   "CTSP_BA-P": {
     "french_name": "Coupe totale sans protection par bandes avec interbandes de 7m et plus",
-    "english_category": "Clearcut"
+    "english_category": "Clearcutting"
   },
   "DEG": {
     "french_name": "Dégagement",
@@ -137,7 +137,7 @@
   },
   "DLD": {
     "french_name": "Coupe à diamètre limite avec dégagement des arbres d'avenir",
-    "english_category": "Selection Cutting"
+    "english_category": "Selection-cutting"
   },
   "DR": {
     "french_name": "Drainage",
@@ -153,11 +153,11 @@
   },
   "EC": {
     "french_name": "Éclaircie commerciale mixte ou systématique",
-    "english_category": "Commercial thinning"
+    "english_category": "Commercial-thinning"
   },
   "ECE": {
     "french_name": "Éclaircie commerciale d'étalement",
-    "english_category": "Commercial thinning"
+    "english_category": "Commercial-thinning"
   },
   "ECL": {
     "french_name": "Récolte dans les lisières boisées",
@@ -165,11 +165,11 @@
   },
   "EC_SEL": {
     "french_name": "Éclaircie commerciale sélective",
-    "english_category": "Commercial thinning"
+    "english_category": "Commercial-thinning"
   },
   "EJ": {
     "french_name": "Éclaircie jardinatoire",
-    "english_category": "Commercial thinning"
+    "english_category": "Commercial-thinning"
   },
   "ENP": {
     "french_name": "Ensemencement partiel",
@@ -181,23 +181,23 @@
   },
   "EPC": {
     "french_name": "Éclaircie précommerciale",
-    "english_category": "Others"
+    "english_category": "Pre-commercial-thinning"
   },
   "EPC_PUITS": {
     "french_name": "Éclaircie précommerciale par puits",
-    "english_category": "Others"
+    "english_category": "Pre-commercial-thinning"
   },
   "EPC_SYS": {
     "french_name": "Éclaircie précommerciale systématique",
-    "english_category": "Others"
+    "english_category": "Pre-commercial-thinning"
   },
   "EPR": {
     "french_name": "Éclaircie pré commerciale aucune régénération visible sur la photo aérienne",
-    "english_category": "Others"
+    "english_category": "Pre-commercial-thinning"
   },
   "ESI": {
     "french_name": "Éclaircie sélective individuelle",
-    "english_category": "Commercial thinning"
+    "english_category": "Commercial-thinning"
   },
   "FER": {
     "french_name": "Fertilisation",
@@ -209,7 +209,7 @@
   },
   "PCP": {
     "french_name": "Coupe progressive irrégulière à couvert permanent",
-    "english_category": "Selection Cutting"
+    "english_category": "Selection-cutting"
   },
   "PL_ENR": {
     "french_name": "Enrichissement",
@@ -225,7 +225,7 @@
   },
   "PTA": {
     "french_name": "Coupe progressive irrégulière par trouées agrandies",
-    "english_category": "Selection Cutting"
+    "english_category": "Selection-cutting"
   },
   "RBP": {
     "french_name": "Coupe de récupération partielle dans un brulis",
@@ -289,71 +289,71 @@
   },
   "CBA": {
     "french_name": "Coupe par bandes",
-    "english_category": "Selection Cutting"
+    "english_category": "Selection-cutting"
   },
   "CBT": {
     "french_name": "Coupe par bandes finale",
-    "english_category": "Selection Cutting"
+    "english_category": "Selection-cutting"
   },
   "CDV": {
     "french_name": "Coupe avec protection des tiges à diamètre variable",
-    "english_category": "Clearcut"
+    "english_category": "Clearcutting"
   },
   "CEF": {
     "french_name": "Coupe d'ensemencement finale",
-    "english_category": "Seed Tree"
+    "english_category": "Seed-tree"
   },
   "CIF": {
     "french_name": "Coupes progressives irrégulières phase finale",
-    "english_category": "Selection Cutting"
+    "english_category": "Selection-cutting"
   },
   "CPE": {
     "french_name": "Coupe progressive d'ensemencement (coupe finale)",
-    "english_category": "Seed Tree"
+    "english_category": "Seed-tree"
   },
   "CPH": {
     "french_name": "Coupe avec protection de la haute régénération et des sols",
-    "english_category": "Clearcut"
+    "english_category": "Clearcutting"
   },
   "CPHRS": {
     "french_name": "Coupe avec protection de la haute régénération et des sols",
-    "english_category": "Clearcut"
+    "english_category": "Clearcutting"
   },
   "CPI_RL_F": {
     "french_name": "Coupe progressive irrégulière à régénération lente phase finale",
-    "english_category": "Selection Cutting"
+    "english_category": "Selection-cutting"
   },
   "CPPTM_DIS": {
     "french_name": "Coupe avec protection des petites tiges marchandes discontinue",
-    "english_category": "Clearcut"
+    "english_category": "Clearcutting"
   },
   "CPPTM_U": {
     "french_name": "Coupe avec protection des petites tiges marchandes uniforme",
-    "english_category": "Clearcut"
+    "english_category": "Clearcutting"
   },
   "CPR": {
     "french_name": "Coupe avec protection de la régénération",
-    "english_category": "Clearcut"
+    "english_category": "Clearcutting"
   },
   "CPRS_BA": {
     "french_name": "Coupe avec protection de la régénération et des sols par bandes",
-    "english_category": "Clearcut"
+    "english_category": "Clearcutting"
   },
   "CPRS_DA": {
     "french_name": "Coupe avec protection de la régénération et des sols en damier",
-    "english_category": "Clearcut"
+    "english_category": "Clearcutting"
   },
   "CPRS_PA": {
     "french_name": "Coupe avec protection de la régénération et des sols en parquets",
-    "english_category": "Clearcut"
+    "english_category": "Clearcutting"
   },
   "CPRS_T": {
     "french_name": "Coupe avec protection de la régénération et des sols par trouées",
-    "english_category": "Clearcut"
+    "english_category": "Clearcutting"
   },
   "CPRS_U": {
     "french_name": "Coupe avec protection de la régénération et des sols uniforme",
-    "english_category": "Clearcut"
+    "english_category": "Clearcutting"
   },
   "CPR_U-F": {
     "french_name": "Coupe progressive régulière uniforme finale",
@@ -361,7 +361,7 @@
   },
   "CPT": {
     "french_name": "Coupe avec protection des petites tiges marchandes et des sols",
-    "english_category": "Clearcut"
+    "english_category": "Clearcutting"
   },
   "CRB": {
     "french_name": "Coupe de récupération dans un brûlis",
@@ -373,7 +373,7 @@
   },
   "CRS": {
     "french_name": "Coupe avec réserve de semencier",
-    "english_category": "Seed Tree"
+    "english_category": "Seed-tree"
   },
   "CS": {
     "french_name": "Coupe de succession",
@@ -381,31 +381,31 @@
   },
   "CT": {
     "french_name": "Coupe totale",
-    "english_category": "Clearcut"
+    "english_category": "Clearcutting"
   },
   "CTSP_BA": {
     "french_name": "Coupe totale sans protection par bandes",
-    "english_category": "Clearcut"
+    "english_category": "Clearcutting"
   },
   "CTSP_DA": {
     "french_name": "Coupe totale sans protection en damier",
-    "english_category": "Clearcut"
+    "english_category": "Clearcutting"
   },
   "CTSP_PA": {
     "french_name": "Coupe totale sans protection en parquets",
-    "english_category": "Clearcut"
+    "english_category": "Clearcutting"
   },
   "CTSP_T": {
     "french_name": "Coupe totale sans protection par trouées",
-    "english_category": "Clearcut"
+    "english_category": "Clearcutting"
   },
   "CTSP_U": {
     "french_name": "Coupe totale sans protection uniforme",
-    "english_category": "Clearcut"
+    "english_category": "Clearcutting"
   },
   "CTX": {
     "french_name": "Ancienne coupe totale sans référence cartographique, dont l'année de réalisation est inconnue",
-    "english_category": "Clearcut"
+    "english_category": "Clearcutting"
   },
   "ENM": {
     "french_name": "Ensemencement avec mini-serres",

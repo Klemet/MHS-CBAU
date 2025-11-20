@@ -89,12 +89,14 @@ def main():
         2001: [
             "NFI_MODIS250m_2001_kNN_SpeciesGroups_Broadleaf_Spp_v1.tif",
             "NFI_MODIS250m_2001_kNN_SpeciesGroups_Needleleaf_Spp_v1.tif",
-            "NFI_MODIS250m_2001_kNN_SpeciesGroups_Unknown_Spp_v1.tif"
+            "NFI_MODIS250m_2001_kNN_SpeciesGroups_Unknown_Spp_v1.tif",
+            "NFI_MODIS250m_2001_kNN_Structure_Volume_Merch_v1.tif"
         ],
         2011: [
             "NFI_MODIS250m_2011_kNN_SpeciesGroups_Broadleaf_Spp_v1.tif",
             "NFI_MODIS250m_2011_kNN_SpeciesGroups_Needleleaf_Spp_v1.tif",
-            "NFI_MODIS250m_2011_kNN_SpeciesGroups_Unknown_Spp_v1.tif"
+            "NFI_MODIS250m_2011_kNN_SpeciesGroups_Unknown_Spp_v1.tif",
+            "NFI_MODIS250m_2011_kNN_Structure_Volume_Merch_v1.tif"
         ]
     }
 

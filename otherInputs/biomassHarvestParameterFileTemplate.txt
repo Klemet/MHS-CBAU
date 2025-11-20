@@ -1,0 +1,375 @@
+>> BIOMASS HARVEST PARAMETER FILE
+>> This file is the template for the main parameter file given to Biomass Harvest.
+>> It is modified dynamically during simulations with the MHS-CBAU approach
+>> by the Python script called by Magic Harvest (MHS-CBAU_MainScript.py).
+>> These dynamic edits allow us to control what Biomass Harvest does completly.
+>> See https://klemet.github.io/Workshop-MagicHarvest/ for more details.
+
+>> WARNING : In order to make this file independant of the rest of your
+>> simulation as possible, the original file contains "dummy" instructions that
+>> will be replaced by the real instructions when Magic Harvest will run, 
+>> copy the template, and edit it before reloading the parameters of Biomass Harvest
+>> with the edited version.
+
+>> WARNING Some keywords here (e.g. for planting) are not used with Biomass Succession, and
+>> are used/from Magic Harvest. They are put in comments so as to not be read by Biomass Harvest.
+>> Don't remove the comment symbols at the beginning of the lines !
+
+
+
+>>------------------------------------------------------------------------
+>>------------------------------------------------------------------------
+>> TYPE OF DATA
+
+LandisData "Biomass Harvest"
+
+
+
+>>------------------------------------------------------------------------
+>>------------------------------------------------------------------------
+>> TIMESTEP
+
+Timestep 5
+
+
+
+>>------------------------------------------------------------------------
+>>------------------------------------------------------------------------
+>> MANAGEMENT AREAS: the .gis file which defines the management areas.
+
+>> WARNING : Here, you must insert the relative path (relative to the location
+>> of the scenario file of your simulation) to the management area raster
+>> your are using. The raster is needed for the initizalisation of
+>> Biomass Harvest, but will not be used afterward by Biomass Harvest afterward
+>> as this line will be replaced by Magic Harvest during the simulation
+>> to indicate a map that the python script MHS-CBAU_MainScript.py has created,
+>> in order to control what Biomass Harvest will do. To learn more about
+>> this approach, see https://klemet.github.io/Workshop-MagicHarvest/
+
+ManagementAreas ""
+
+
+
+>>------------------------------------------------------------------------
+>>------------------------------------------------------------------------
+>> STANDS: the .gis file which defines the stands. A stand can belong to
+>> one and only one management area.
+
+>> WARNING : Here, you must insert the relative path (relative to the location
+>> of the scenario file of your simulation) to the stand raster
+>> your are using. The raster is needed here throughout the entire simulation.
+
+Stands ""
+
+
+
+>>------------------------------------------------------------------------
+>>------------------------------------------------------------------------
+>> PRESCRIPTIONS
+
+>> WARNING : No stand qualifications are indicated to biomass harvest here.
+>> That means that you have to filter what stands should not be available for
+>> harvesting through the python script (MHS-CBAU_MainScript.py), as no filtering
+>> will be done here (for example, excluding stands that are too young).
+
+>> WARNING : All of the prescriptions in probabilityMatrixCutsVersusStandType.csv
+>> and cutSizesDistribution.json should be accounted for here. Other prescriptions
+>> not present in this files can be defined here for other purposes (for example,
+>> a second pass for the shelterwood or seed tree).
+
+
+>>------------------------------------------------------------------------
+>> CLEARCUT
+
+Prescription Clearcutting
+
+>> STAND RANKING: Is needed for biomass harvest, but it will have no effect
+>> in our case since we use Magic Harvest to dictate what stands are harvested.
+StandRanking Random
+>> SITE SELECTION:
+SiteSelection Complete	
+>> COHORT REMOVAL METHOD:
+>> For clearcutting, we remove everything except very young trees.
+>> Used to simulate a clearcutting with protection of regeneration,
+>> which is often done in Canada.
+
+>> WARNING : The following line is not used in the simulation.
+>> It's just here so that the file can be read by Biomass Harvest
+>> during its initialization, which happens before Magic Harvest will
+>> be able to edit the file to add the real instructions for this prescription.
+>> Biomass Harvest needs an instruction when it reads the file, or it will return an error.
+CohortsRemoved ClearCut
+
+>> WARNING : The following line is used to indicate to Magic Harvest
+>> that it must write the instructions for this prescription.
+>> MagicHarvest_ClearcutPrescription
+
+>> For planting tree following the cut in Magic Harvest :
+>> This keyword is used to trigger a specific kind
+>> of planting. Here, we will trigger a planting of
+>> commercial species in 20% of cases randomly. The
+>> number 20% is used as it's been referenced in documents
+>> from the Quebec chief forester (see https://forestierenchef.gouv.qc.ca/possibilites-forestieres/periode-2018-2023/manuel-determination-possibilites-forestieres-2018-2023/ ;
+>> it says that plantations are needed after around 20% of cuts in Quebec),
+>> and I also saw this kind of proportion in empirical data.
+>> WARNING : Keep the next line commented so that Biomass Harvest
+>> doesn't read it. 
+>> PlantingMagicHarvest 20%_Commercial
+
+
+>>------------------------------------------------------------------------
+>> SHELTERWOOD
+
+Prescription Shelterwood
+
+>> STAND RANKING: Is needed for biomass harvest, but it will have no effect
+>> in our case since we use Magic Harvest to dictate what stands are harvested.
+StandRanking Random
+>> SITE SELECTION:
+SiteSelection Complete	
+>> COHORT REMOVAL METHOD:
+>> Here, we model the "first pass" of a shelterwood. The first pass
+>> aims to keep some old trees which will create shade for the regeneration.
+
+>> WARNING : The following line is not used in the simulation.
+>> It's just here so that the file can be read by Biomass Harvest
+>> during its initialization, which happens before Magic Harvest will
+>> be able to edit the file to add the real instructions for this prescription.
+>> Biomass Harvest needs an instruction when it reads the file, or it will return an error.
+CohortsRemoved ClearCut
+
+>> WARNING : The following line is used to indicate to Magic Harvest
+>> that it must write the instructions for this prescription.
+>> MagicHarvest_ShelterwoodFristPassPrescription
+
+SingleRepeat 20
+
+>> WARNING : The following line is not used in the simulation.
+>> It's just here so that the file can be read by Biomass Harvest
+>> during its initialization, which happens before Magic Harvest will
+>> be able to edit the file to add the real instructions for this prescription.
+>> Biomass Harvest needs an instruction when it reads the file, or it will return an error.
+CohortsRemoved ClearCut
+
+>> WARNING : The next line is used by Magic Harvest to read
+>> what is the second pass prescription.
+>> We need to use a second separate prescription for the
+>> second pass because of the way Magic Harvest and Biomass HARVEST
+>> interact together.
+>> Second_Pass ShelterwoodOrSeedTreeSecondPass
+
+>> WARNING : The following line is used to indicate to Magic Harvest
+>> that it must write the instructions for this prescription.
+>> MagicHarvest_ShelterwoodOrSeedTreeSecondPass
+
+>> We don't plant after Shelterwood, as it's made to influence natural regeneration instead
+>> towards shade-tolerant species.
+
+
+>>------------------------------------------------------------------------
+>> SEED-TREE
+
+Prescription Seed-tree
+
+>> STAND RANKING: Is needed for biomass harvest, but it will have no effect
+>> in our case since we use Magic Harvest to dictate what stands are harvested.
+StandRanking Random
+>> SITE SELECTION:
+SiteSelection Complete	
+>> COHORT REMOVAL METHOD:
+>> Here, we model the "first pass" of a seed-tree approach. The first pass
+>> aims to keep a few mature trees not for shade, but for natural regeneration.
+
+>> WARNING : The following line is not used in the simulation.
+>> It's just here so that the file can be read by Biomass Harvest
+>> during its initialization, which happens before Magic Harvest will
+>> be able to edit the file to add the real instructions for this prescription.
+>> Biomass Harvest needs an instruction when it reads the file, or it will return an error.
+CohortsRemoved ClearCut
+
+>> WARNING : The following line is used to indicate to Magic Harvest
+>> that it must write the instructions for this prescription.
+>> MagicHarvest_SeedTreeFirstPass
+
+SingleRepeat 20
+
+>> WARNING : The following line is not used in the simulation.
+>> It's just here so that the file can be read by Biomass Harvest
+>> during its initialization, which happens before Magic Harvest will
+>> be able to edit the file to add the real instructions for this prescription.
+>> Biomass Harvest needs an instruction when it reads the file, or it will return an error.
+CohortsRemoved ClearCut
+
+>> WARNING : The next line is used by Magic Harvest to read
+>> what is the second pass prescription.
+>> We need to use a second separate prescription for the
+>> second pass because of the way Magic Harvest and Biomass HARVEST
+>> interact together.
+>> Second_Pass ShelterwoodOrSeedTreeSecondPass
+
+>> WARNING : The following line is used to indicate to Magic Harvest
+>> that it must write the instructions for this prescription.
+>> MagicHarvest_ShelterwoodOrSeedTreeSecondPass
+
+>> We don't plant after Seed-tree, as it's made to make regeneration with
+>> the older trees we leave behind.
+
+
+>>------------------------------------------------------------------------
+>> SECOND PASS OF SHELTERWOOD OR SEED-TREE
+
+Prescription ShelterwoodOrSeedTreeSecondPass
+
+>> STAND RANKING: Is needed for biomass harvest, but it will have no effect
+>> in our case since we use Magic Harvest to dictate what stands are harvested.
+StandRanking Random
+>> SITE SELECTION:
+SiteSelection Complete	
+>> COHORT REMOVAL METHOD:
+>> Here, we model the "second pass" of a shelterwood or seed-tree. it aims to remove
+>> the older trees that have been left out during the first pass so as to
+>> re-create an even-aged structure.
+>> We make it an individual prescription because it's easier to use it in magic harvest
+>> afterwards.
+
+>> WARNING : The following line is not used in the simulation.
+>> It's just here so that the file can be read by Biomass Harvest
+>> during its initialization, which happens before Magic Harvest will
+>> be able to edit the file to add the real instructions for this prescription.
+>> Biomass Harvest needs an instruction when it reads the file, or it will return an error.
+CohortsRemoved ClearCut
+
+>> WARNING : The following line is used to indicate to Magic Harvest
+>> that it must write the instructions for this prescription.
+>> MagicHarvest_ShelterwoodOrSeedTreeSecondPass
+
+>> We don't plant after the second pass of seed tree or shelterwood, as both are
+>> used to influence regeneration by themselves.
+
+
+>>------------------------------------------------------------------------
+>> SELECTION-CUTTING
+
+Prescription Selection-cutting
+
+>> STAND RANKING: Is needed for biomass harvest, but it will have no effect
+>> in our case since we use Magic Harvest to dictate what stands are harvested.
+StandRanking Random
+>> SITE SELECTION:
+SiteSelection Complete	
+>> COHORT REMOVAL METHOD:
+>> Here, we model a regular pass of selection cutting that takes 30% of the volume
+>> of the stand.
+
+>> WARNING : The following line is not used in the simulation.
+>> It's just here so that the file can be read by Biomass Harvest
+>> during its initialization, which happens before Magic Harvest will
+>> be able to edit the file to add the real instructions for this prescription.
+>> Biomass Harvest needs an instruction when it reads the file, or it will return an error.
+CohortsRemoved ClearCut
+
+>> WARNING : The following line is used to indicate to Magic Harvest
+>> that it must write the instructions for this prescription.
+>> MagicHarvest_SelectionCutting
+
+MultipleRepeat 30
+
+>> We don't plant after Selection-cutting.
+
+
+>>------------------------------------------------------------------------
+>> COMMERCIAL THINNING
+
+Prescription Commercial-thinning
+
+>> STAND RANKING: Is needed for biomass harvest, but it will have no effect
+>> in our case since we use Magic Harvest to dictate what stands are harvested.
+StandRanking Random
+>> SITE SELECTION:
+SiteSelection Complete	
+>> WARNING : The following line is for a keyword for Magic Harvest to select stands
+>> of the right age for commercial thinning.
+>> MagicHarvest_MinMaxAgeStands 30 40
+>> COHORT REMOVAL METHOD:
+>> Here, we model thinning, by removing young trees a lot and keeping older trees.
+>> Can be used to model commercial or pre-commercial thinning.
+
+>> WARNING : The following line is not used in the simulation.
+>> It's just here so that the file can be read by Biomass Harvest
+>> during its initialization, which happens before Magic Harvest will
+>> be able to edit the file to add the real instructions for this prescription.
+>> Biomass Harvest needs an instruction when it reads the file, or it will return an error.
+CohortsRemoved ClearCut
+
+>> WARNING : The following line is used to indicate to Magic Harvest
+>> that it must write the instructions for this prescription.
+>> MagicHarvest_Thinning
+
+>> We don't plant after Thinning, as it's made to influence growth.
+
+
+>>------------------------------------------------------------------------
+>> PRE COMMERCIAL THINNING
+>> Same as commercial thinning, but will be applied to younger stands.
+
+Prescription Pre-commercial-thinning
+
+>> STAND RANKING: Is needed for biomass harvest, but it will have no effect
+>> in our case since we use Magic Harvest to dictate what stands are harvested.
+StandRanking Random
+>> SITE SELECTION:
+SiteSelection Complete	
+>> WARNING : The following line is for a keyword for Magic Harvest to select stands
+>> of the right age for pre commercial thinning.
+>> MagicHarvest_MinMaxAgeStands 10 20
+>> COHORT REMOVAL METHOD:
+>> Here, we model thinning, by removing young trees a lot and keeping older trees.
+>> Can be used to model commercial or pre-commercial thinning.
+
+>> WARNING : The following line is not used in the simulation.
+>> It's just here so that the file can be read by Biomass Harvest
+>> during its initialization, which happens before Magic Harvest will
+>> be able to edit the file to add the real instructions for this prescription.
+>> Biomass Harvest needs an instruction when it reads the file, or it will return an error.
+CohortsRemoved ClearCut
+
+>> WARNING : The following line is used to indicate to Magic Harvest
+>> that it must write the instructions for this prescription.
+>> MagicHarvest_Thinning
+
+>> We don't plant after Thinning, as it's made to influence growth.
+
+
+>>------------------------------------------------------------------------
+>>------------------------------------------------------------------------
+>> MAGIC HARVEST : SPACE TO ADD PLANTING PRESCRIPTIONS
+>> The magic harvest script is made to create new planting prescriptions
+>> by copying the previous prescriptions, editing their strings, and
+>> pasting them here.
+
+>> PASTE_PLANTING_PRESCRIPTIONS_HERE
+ 
+
+
+>>------------------------------------------------------------------------
+>>------------------------------------------------------------------------
+>> HARVEST IMPLEMENTATION TABLE
+>> The following table defines which management areas (defined in the
+>> ManagementArea file) are treated by which prescription(s).
+
+HarvestImplementations
+
+>> Mgmt Area Prescription   Harvest Area   Begin Time   End Time
+>> --------- ------------   ------------   ----------   --------
+>> PASTE_IMPLEMENTATION_TABLE_HERE
+
+>>------------------------------------------------------------------------
+>>------------------------------------------------------------------------
+>> OUTPUT FILES
+>> You can change these if you want to a location that suits you.
+
+PrescriptionMaps ./output/harvest/prescripts-{timestep}.img
+BiomassMaps ./output/harvest/biomass-removed-{timestep}.img
+EventLog ./output/harvest/log.csv
+SummaryLog ./output/harvest/summarylog.csv
+>>------------------------------------------------------------------------

@@ -14,7 +14,7 @@ from tqdm import tqdm
 # Configuration
 GDB_PATH = r"./InputData/INTERV_FORES_PROV.gdb"
 JSON_PATH = "./InputData/CutTypeCategories.json"
-OUTPUT_JSON = "cut_size_distributions.json"
+OUTPUT_JSON = "cutSizesDistribution.json"
 
 # %% Load Reclassification Dictionary
 with open(JSON_PATH, 'r', encoding='utf-8') as f:
