@@ -1,0 +1,71 @@
+# Introduction
+
+**Authors:** Clément Hardy<sup>1</sup> \
+**Affiliations:** <sup>1</sup>Université du Québec en Outaouais (UQO)\
+
+[![Made with MyST](https://img.shields.io/badge/made%20with-myst-orange)](https://myst.tools)
+
+This small website contains a workshop to help you use [MHS-CBAU](https://github.com/Klemet/MHS-CBAU).
+MHS-CBAU is a step of scripts designed to help you replicate a *Business as Usual* forest management in a Canadian landscape simulated with the [LANDIS-II](https://www.landis-ii.org/) model, by using a combination of several extensions of LANDIS-II ([Biomass Harvest](https://github.com/LANDIS-II-Foundation/Extension-Biomass-Harvest), [Magic Harvest](https://github.com/Klemet/LANDIS-II-Magic-Harvest) and [Output Biomass Community](https://github.com/LANDIS-II-Foundation/Extension-Output-Biomass-Community). **MHS-CBAU also contains scripts to generate all of the input files you will need quickly for any study landscape in Canada**.
+
+This workshop is an web-readable view of the powerpoint presentation I did in the winter of 2025. You'll have both the slides and the script associated to each slide.
+
+## What is MHS-CBAU ?
+
+```{image} ./images/Slide1.jpg
+:width: 100%
+:align: center
+```
+
+MHS-CBAU is a set of scripts and files to use with the Magic Harvest extensions in LANDIS-II to simulate a "Business as Usual" forest management in any Canadian landscape.
+
+```{image} ./images/Slide2.jpg
+:width: 100%
+:align: center
+```
+
+It is made of several Python scripts, that help you do two things :
+
+1. Generate all of the input files you will need for your study landscape (**before the LANDIS-II simulation**)
+2. Make all of the management decisions during your LANDIS-II simulation in order to replicate a Business-as-usual approach.
+
+## Requirements
+
+```{image} ./images/Slide3.jpg
+:width: 100%
+:align: center
+```
+
+The scripts to run before the simulation to get the parameters only require Python installed in your computer. We will see what is the best way to install it for you latter in the workshop.
+
+:::{note} What is Python ?
+Python is a programming language. Like R, you need to install it on your computer. You can then download packages for it, and run scripts, entire programs, or just lines in a terminal (exactly like R). It's faster than R and more mature in many ways; less used by biologists than R, but still has a lot of excellent packages and modules for GIS, etc.
+:::
+
+The scripts to use during the LANDIS-II simulation require Python with 4 packages installed (instructions will come after), and 3 LANDIS-II extensions : Magic Harvest (to run the Python scripts of MHS-CBAU at each timestep); Biomass Harvest (to execute the harvesting after the scripts of MHS-CBAU have taken the management decisions); and Output Biomass Community (to output a file containing the state of the landscape which the MHS-CBAU script will read to get informations about the landscape).
+
+
+
+**The Magic Harvest extension is both simple and complicated**. Simple, because its functionning can be summarized in two sentences : it's a companion extension for Biomass Harvest (the main harvest extension for LANDIS-II; the other ones are almost never used) who's goal is to run before Biomass Harvest. **When running, it will simply launch a custom command defined by the user - for example an R or Python script - and will then force Biomass Harvest to re-load its parameters**. That's it.
+
+The complex part is understanding the consequences of this and learning to play with it. The consequences is that we can control what Biomass Harvest does at different degrees : complete and total control, or still letting Biomass Harvest do some choices based on its own algorithm. Learning to play with Magic Harvest mostly means learning to write scripts that will do what you want to do.
+
+
+## Plan of the workshop
+
+![](./images/Slide3.jpg)</br>
+
+So today, we're going to see :
+- How Magic Harvest works in a bit more details
+- Some visual examples of how much control we can achieve
+- Taking a look at a Python script I've made to use Magic Harvest
+- And then do a couple of exercises together to get familliar with how to do what you want to do with it
+
+We are not going to run Magic Harvest; you have test files accessible on the repository, and it's very easy to run if you know how to run LANDIS-II. As we're going to see, the parameter file is very small. Today, I prefer that we focus on understanding the model and understanding what you can do with it.
+
+## Credits
+
+Visuals for this presentation come from :
+
+- [Storyset on Freepik](https://www.freepik.com/author/stories) (characters of Magic Harvest and Biomass Harvest; original images from Storyset have been edited)
+- Different icons from [Iconify](https://iconify.design/) (repository of many open-source icon sets).

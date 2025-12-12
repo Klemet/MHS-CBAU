@@ -1,0 +1,107 @@
+# Introduction
+
+**Authors:** Clément Hardy<sup>1</sup> \
+**Affiliations:** <sup>1</sup>Université du Québec en Outaouais (UQO)
+
+[![Made with MyST](https://img.shields.io/badge/made%20with-myst-orange)](https://myst.tools)
+
+This small website contains a workshop to help you use [MHS-CBAU](https://github.com/Klemet/MHS-CBAU).
+
+MHS-CBAU is a step of scripts designed to help you replicate a *Business as Usual* forest management in a Canadian landscape simulated with the [LANDIS-II](https://www.landis-ii.org/) model, by using a combination of several extensions of LANDIS-II ([Biomass Harvest](https://github.com/LANDIS-II-Foundation/Extension-Biomass-Harvest), [Magic Harvest](https://github.com/Klemet/LANDIS-II-Magic-Harvest) and [Output Biomass Community](https://github.com/LANDIS-II-Foundation/Extension-Output-Biomass-Community).
+
+**MHS-CBAU also contains scripts to generate all of the input files you will need quickly for any study landscape in Canada**, and is also made to be customized so that you can keep the structure of the scripts while implementing more complex forms of forest management (e.g. TRIAD zoning, Functional Complex Network, Climate Smart Forestry, etc.; sky's the limit !)
+
+This workshop is an web-readable view of the powerpoint presentation I did in the winter of 2025. You'll have both the slides and the script associated to each slide.
+
+
+## What is MHS-CBAU ?
+
+```{image} ./images/Slide2.jpg
+:width: 100%
+:align: center
+```
+
+MHS-CBAU is a set of scripts and files to use with the Magic Harvest extensions in LANDIS-II to simulate a "Business as Usual" forest management in any Canadian landscape.
+
+```{image} ./images/Slide3.jpg
+:width: 100%
+:align: center
+```
+
+It is made of several Python scripts, that help you do two things :
+
+1. Generate all of the input files you will need for your study landscape (**before the LANDIS-II simulation**)
+2. Make all of the management decisions during your LANDIS-II simulation in order to replicate a Business-as-usual approach.
+
+
+## Requirements
+
+```{image} ./images/Slide4.jpg
+:width: 100%
+:align: center
+```
+
+The scripts to run before the simulation to get the parameters only require Python installed in your computer. We will see what is the best way to install it for you latter in the workshop.
+
+:::{note} What is Python ?
+Python is a programming language. Like R, you need to install it on your computer. You can then download packages for it, and run scripts, entire programs, or just lines in a terminal (exactly like R). It's faster than R and more mature in many ways; less used by biologists than R, but still has a lot of excellent packages and modules for GIS, etc.
+:::
+
+The scripts to use during the LANDIS-II simulation require Python with 4 packages installed (instructions will come after), and 3 LANDIS-II extensions : [Magic Harvest](https://github.com/Klemet/LANDIS-II-Magic-Harvest) (to run the Python scripts of MHS-CBAU at each timestep); [Biomass Harvest](https://github.com/LANDIS-II-Foundation/Extension-Biomass-Harvest) (to execute the harvesting after the scripts of MHS-CBAU have taken the management decisions); and [Output Biomass Community](https://github.com/LANDIS-II-Foundation/Extension-Output-Biomass-Community) (to output a file containing the state of the landscape which the MHS-CBAU script will read to get informations about the landscape).
+
+
+## Goals of MHS-CBAU
+
+MHS-CBAU has 3 goals :
+
+```{image} ./images/Slide5.jpg
+:width: 100%
+:align: center
+```
+
+Goal 1 : simulate a Business-As-Usual forest harvesting in Canada with LANDIS-II a way that is relatively simple, yet realistic. We harvest empirically-based harvest targets in wood volumes; Prescriptions react to changes in forest composition; cuts are done in patch that vary in size based on real-life cuts; etc.; and there are more things, like including some non-commercial treatments (thinning), prescriptions possibly being repeated or have a second pass (e.g. Shelterwood, Seed-tree), etc.
+Dealing with merchantable wood, in particular, makes it easier to parameterize and to communicate with foresters, as their main unit of profit is merchantable wood volume (and not biomass, which is what LANDIS-II uses, and which is more used by ecologists).
+
+```{image} ./images/Slide6.jpg
+:width: 100%
+:align: center
+```
+
+Goal 2 : make it easy to be parameterized for your study area. **MHS-CBAU comes with a step-by-step documented guide to get everything ready for your study landscape in less than a week.** It comes with scripts that will automatically generate inputs for you, and files that already contain parameters for almost every tree species in Canada.
+
+So, when it's time for you to include forest management in your LANDIS-II simulation, MHS-CBAU is made so that it will be relatively short and easy to do it.
+
+MHS-CBAU is also completly open-source; so you will be able to share your files with any reviewer or colleague that will be interested to understand what you have done in your LANDIS-II simulation.
+
+```{image} ./images/Slide7.jpg
+:width: 100%
+:align: center
+```
+
+Goal 3 : to be easy to customize.
+
+MHS-CBAU functions through a very documented Python script that can be edited to do other management scenarios : TRIAD zoning, Functional Complex Network, Climate Smart Forestry, etc. Python is a pretty easy langage to learn and can be used in a terminal, just like R !
+
+Customizing the scripts will take some time, as it requires a bit of programming. But Python makes it easier to do because you can run the script in Spyder (the equivalent of R studio, but for Python) to test them and de-bug them. As every function is documented in details, AI models should be able to help you without hallucinating too much.
+
+
+## Plan of the workshop
+
+```{image} ./images/Slide8.jpg
+:width: 100%
+:align: center
+```
+
+- So today, we're going to see :
+    - A quick reminder of how Magic Harvest works (as it is the LANDIS-II extension which makes everything possible with MHS-CBAU)
+	- A quick view at how MHS-CBAU works in details (how it takes management decisions, etc.)
+	- Going through the step-by-step to get everything ready for your simulation; this is not a step-by-step of how things work, because we’ve seen that in the previous section. This is a step-by-step of what you need to do to generate and prepare all of the files needed to use MHS-CBAU in your LANDIS-II simulation for your study landscape.
+	- Finally, we will see some advices on how to customize the scripts.
+
+
+## Credits
+
+Visuals for this presentation come from :
+
+- [Storyset on Freepik](https://www.freepik.com/author/stories) (characters of Magic Harvest and Biomass Harvest; original images from Storyset have been edited)
+- Different icons from [Iconify](https://iconify.design/) (repository of many open-source icon sets).
