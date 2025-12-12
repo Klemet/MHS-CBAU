@@ -9,6 +9,11 @@
     "unit": "oven dry mass/fresh volume as metricTons per m3",
     "species_full_name": "Abies balsamea"
   },
+  "ABIE.CON": {
+    "wood_density_value": 0.37,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Abies concolor"
+  },
   "ABIE.GRA": {
     "wood_density_value": 0.35,
     "unit": "oven dry mass/fresh volume as metricTons per m3",
@@ -18,6 +23,21 @@
     "wood_density_value": 0.31,
     "unit": "oven dry mass/fresh volume as metricTons per m3",
     "species_full_name": "Abies lasiocarpa"
+  },
+  "ABIE.MAG": {
+    "wood_density_value": 0.36,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Abies magnifica"
+  },
+  "ABIE.PIN": {
+    "wood_density_value": 0.41,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Abies pinsapo"
+  },
+  "ABIE.PRO": {
+    "wood_density_value": 0.37,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Abies procera"
   },
   "ACER.MAC": {
     "wood_density_value": 0.44,
@@ -29,10 +49,25 @@
     "unit": "oven dry mass/fresh volume as metricTons per m3",
     "species_full_name": "Acer negundo"
   },
+  "ACER.NIG": {
+    "wood_density_value": 0.52,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Acer nigrum"
+  },
   "ACER.PEN": {
     "wood_density_value": 0.44,
     "unit": "oven dry mass/fresh volume as metricTons per m3",
-    "species_full_name": "Acer pennsylvanicum"
+    "species_full_name": "Acer pensylvanicum"
+  },
+  "ACER.PLA": {
+    "wood_density_value": 0.508,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Acer platanoides"
+  },
+  "ACER.PSE": {
+    "wood_density_value": 0.508,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Acer pseudoplatanus"
   },
   "ACER.RUB": {
     "wood_density_value": 0.49,
@@ -44,6 +79,26 @@
     "unit": "oven dry mass/fresh volume as metricTons per m3",
     "species_full_name": "Acer saccharinum"
   },
+  "ACER.SAH": {
+    "wood_density_value": 0.56,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Acer saccharum"
+  },
+  "AESC.HIP": {
+    "wood_density_value": 0.5,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Aesculus hippocastanum"
+  },
+  "AILA.ALT": {
+    "wood_density_value": 0.457,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Ailanthus altissima"
+  },
+  "ALNU.GLU": {
+    "wood_density_value": 0.439,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Alnus glutinosa"
+  },
   "ALNU.INC": {
     "wood_density_value": 0.439,
     "unit": "oven dry mass/fresh volume as metricTons per m3",
@@ -53,6 +108,11 @@
     "wood_density_value": 0.37,
     "unit": "oven dry mass/fresh volume as metricTons per m3",
     "species_full_name": "Alnus rubra"
+  },
+  "ARAU.ARA": {
+    "wood_density_value": 0.52,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Araucaria araucana"
   },
   "ARBU.MEN": {
     "wood_density_value": 0.57,
@@ -64,6 +124,11 @@
     "unit": "oven dry mass/fresh volume as metricTons per m3",
     "species_full_name": "Betula alleghaniensis"
   },
+  "BETU.LEN": {
+    "wood_density_value": 0.6,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Betula lenta"
+  },
   "BETU.NEO": {
     "wood_density_value": 0.53,
     "unit": "oven dry mass/fresh volume as metricTons per m3",
@@ -74,10 +139,20 @@
     "unit": "oven dry mass/fresh volume as metricTons per m3",
     "species_full_name": "Betula papyrifera"
   },
+  "BETU.PEN": {
+    "wood_density_value": 0.525,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Betula pendula"
+  },
   "BETU.POP": {
     "wood_density_value": 0.45,
     "unit": "oven dry mass/fresh volume as metricTons per m3",
     "species_full_name": "Betula populifolia"
+  },
+  "BETU.PUB": {
+    "wood_density_value": 0.525,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Betula pubescens"
   },
   "CARP.CAR": {
     "wood_density_value": 0.58,
@@ -89,25 +164,105 @@
     "unit": "oven dry mass/fresh volume as metricTons per m3",
     "species_full_name": "Carya cordiformis"
   },
+  "CARY.OVA": {
+    "wood_density_value": 0.64,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Carya ovata"
+  },
+  "CARY.TOM": {
+    "wood_density_value": 0.64,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Carya tomentosa"
+  },
   "CAST.DEN": {
     "wood_density_value": 0.4,
     "unit": "oven dry mass/fresh volume as metricTons per m3",
     "species_full_name": "Castanea dentata"
+  },
+  "CAST.MOL": {
+    "wood_density_value": 0.593,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Castanea mollissima"
+  },
+  "CATA.BIG": {
+    "wood_density_value": 0.361,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Catalpa bignonioides"
+  },
+  "CATA.SPE": {
+    "wood_density_value": 0.38,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Catalpa speciosa"
+  },
+  "CEDR.ATL": {
+    "wood_density_value": 0.44,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Cedrus atlantica"
+  },
+  "CEDR.DEO": {
+    "wood_density_value": 0.47,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Cedrus deodara"
+  },
+  "CELT.OCC": {
+    "wood_density_value": 0.49,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Celtis occidentalis"
+  },
+  "CERC.JAP": {
+    "wood_density_value": 0.439,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Cercidiphyllum japonicum"
+  },
+  "CERC.CAN": {
+    "wood_density_value": 0.65,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Cercis canadensis"
+  },
+  "CHAM.LAW": {
+    "wood_density_value": 0.39,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Chamaecyparis lawsoniana"
   },
   "CHAM.NOO": {
     "wood_density_value": 0.42,
     "unit": "oven dry mass/fresh volume as metricTons per m3",
     "species_full_name": "Chamaecyparis nootkatensis"
   },
+  "CHAM.OBT": {
+    "wood_density_value": 0.49,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Chamaecyparis obtusa"
+  },
+  "CORN.FLO": {
+    "wood_density_value": 0.64,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Cornus florida"
+  },
+  "CORN.NUT": {
+    "wood_density_value": 0.58,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Cornus nuttallii"
+  },
   "FAGU.GRA": {
     "wood_density_value": 0.56,
     "unit": "oven dry mass/fresh volume as metricTons per m3",
     "species_full_name": "Fagus grandifolia"
   },
+  "FAGU.SYL": {
+    "wood_density_value": 0.585,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Fagus sylvatica"
+  },
   "FRAX.AME": {
     "wood_density_value": 0.55,
     "unit": "oven dry mass/fresh volume as metricTons per m3",
     "species_full_name": "Fraxinus americana"
+  },
+  "FRAX.LAT": {
+    "wood_density_value": 0.5,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Fraxinus latifolia"
   },
   "FRAX.NIG": {
     "wood_density_value": 0.45,
@@ -119,15 +274,30 @@
     "unit": "oven dry mass/fresh volume as metricTons per m3",
     "species_full_name": "Fraxinus pennsylvanica"
   },
+  "FRAX.QUA": {
+    "wood_density_value": 0.53,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Fraxinus quadrangulata"
+  },
+  "GINK.BIL": {
+    "wood_density_value": 0.458,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Ginkgo biloba"
+  },
   "GLED.TRI": {
     "wood_density_value": 0.6,
     "unit": "oven dry mass/fresh volume as metricTons per m3",
     "species_full_name": "Gleditsia triacanthos"
   },
-  "ILEX.VER": {
-    "wood_density_value": 0.52,
+  "GYMN.DIO": {
+    "wood_density_value": 0.53,
     "unit": "oven dry mass/fresh volume as metricTons per m3",
-    "species_full_name": "Ilex versteeghii"
+    "species_full_name": "Gymnocladus dioicus"
+  },
+  "HAMA.VIR": {
+    "wood_density_value": 0.56,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Hamamelis virginiana"
   },
   "JUGL.CIN": {
     "wood_density_value": 0.36,
@@ -163,6 +333,26 @@
     "wood_density_value": 0.48,
     "unit": "oven dry mass/fresh volume as metricTons per m3",
     "species_full_name": "Larix occidentalis"
+  },
+  "LARI.SIB": {
+    "wood_density_value": 0.485,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Larix sibirica"
+  },
+  "LIRI.TUL": {
+    "wood_density_value": 0.4,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Liriodendron tulipifera"
+  },
+  "MAGN.ACU": {
+    "wood_density_value": 0.44,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Magnolia acuminata"
+  },
+  "NYSS.SYL": {
+    "wood_density_value": 0.46,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Nyssa sylvatica"
   },
   "OSTR.VIR": {
     "wood_density_value": 0.63,
@@ -214,15 +404,30 @@
     "unit": "oven dry mass/fresh volume as metricTons per m3",
     "species_full_name": "Pinus flexilis"
   },
+  "PINU.LAM": {
+    "wood_density_value": 0.34,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Pinus lambertiana"
+  },
   "PINU.MON": {
     "wood_density_value": 0.35,
     "unit": "oven dry mass/fresh volume as metricTons per m3",
     "species_full_name": "Pinus monticola"
   },
+  "PINU.NIG": {
+    "wood_density_value": 0.414,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Pinus nigra"
+  },
   "PINU.PON": {
     "wood_density_value": 0.38,
     "unit": "oven dry mass/fresh volume as metricTons per m3",
     "species_full_name": "Pinus ponderosa"
+  },
+  "PINU.RAD": {
+    "wood_density_value": 0.39,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Pinus radiata"
   },
   "PINU.RES": {
     "wood_density_value": 0.41,
@@ -249,6 +454,11 @@
     "unit": "oven dry mass/fresh volume as metricTons per m3",
     "species_full_name": "Platanus occidentalis"
   },
+  "POPU.ALB": {
+    "wood_density_value": 0.353,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Populus alba"
+  },
   "POPU.BAL": {
     "wood_density_value": 0.31,
     "unit": "oven dry mass/fresh volume as metricTons per m3",
@@ -264,15 +474,25 @@
     "unit": "oven dry mass/fresh volume as metricTons per m3",
     "species_full_name": "Populus grandidentata"
   },
-  "POPU.TRE": {
-    "wood_density_value": 0.387,
+  "POPU.NIG": {
+    "wood_density_value": 0.353,
     "unit": "oven dry mass/fresh volume as metricTons per m3",
-    "species_full_name": "Populus tremula"
+    "species_full_name": "Populus nigra"
+  },
+  "POPU.TRE": {
+    "wood_density_value": 0.35,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Populus tremuloides"
   },
   "POPU.TRI": {
     "wood_density_value": 0.31,
     "unit": "oven dry mass/fresh volume as metricTons per m3",
     "species_full_name": "Populus trichocarpa"
+  },
+  "PRUN.AVI": {
+    "wood_density_value": 0.474,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Prunus avium"
   },
   "PRUN.PEN": {
     "wood_density_value": 0.36,
@@ -288,6 +508,11 @@
     "wood_density_value": 0.453,
     "unit": "oven dry mass/fresh volume as metricTons per m3",
     "species_full_name": "Pseudotsuga menziesii"
+  },
+  "PYRU.COM": {
+    "wood_density_value": 0.603,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Pyrus communis"
   },
   "QUER.ALB": {
     "wood_density_value": 0.6,
@@ -309,10 +534,45 @@
     "unit": "oven dry mass/fresh volume as metricTons per m3",
     "species_full_name": "Quercus macrocarpa"
   },
+  "QUER.PAL": {
+    "wood_density_value": 0.58,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Quercus palustris"
+  },
+  "QUER.ROB": {
+    "wood_density_value": 0.56,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Quercus robur"
+  },
   "QUER.RUB": {
     "wood_density_value": 0.56,
     "unit": "oven dry mass/fresh volume as metricTons per m3",
     "species_full_name": "Quercus rubra"
+  },
+  "QUER.SHU": {
+    "wood_density_value": 0.644,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Quercus shumardii"
+  },
+  "QUER.VEL": {
+    "wood_density_value": 0.56,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Quercus velutina"
+  },
+  "RHAM.FRA": {
+    "wood_density_value": 0.499,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Rhamnus frangula"
+  },
+  "RHAM.PUR": {
+    "wood_density_value": 0.5,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Rhamnus purshiana"
+  },
+  "RHUS.TYP": {
+    "wood_density_value": 0.45,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Rhus typhina"
   },
   "ROBI.PSE": {
     "wood_density_value": 0.66,
@@ -328,6 +588,21 @@
     "wood_density_value": 0.42,
     "unit": "oven dry mass/fresh volume as metricTons per m3",
     "species_full_name": "Sassafras albidum"
+  },
+  "SEQU.SEM": {
+    "wood_density_value": 0.38,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Sequoia sempervirens"
+  },
+  "SORB.AUC": {
+    "wood_density_value": 0.629,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Sorbus aucuparia"
+  },
+  "TAXU.BAC": {
+    "wood_density_value": 0.551,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Taxus baccata"
   },
   "TAXU.BRE": {
     "wood_density_value": 0.6,
@@ -368,6 +643,11 @@
     "wood_density_value": 0.46,
     "unit": "oven dry mass/fresh volume as metricTons per m3",
     "species_full_name": "Ulmus americana"
+  },
+  "ULMU.PUM": {
+    "wood_density_value": 0.55,
+    "unit": "oven dry mass/fresh volume as metricTons per m3",
+    "species_full_name": "Ulmus pumila"
   },
   "ULMU.RUB": {
     "wood_density_value": 0.48,

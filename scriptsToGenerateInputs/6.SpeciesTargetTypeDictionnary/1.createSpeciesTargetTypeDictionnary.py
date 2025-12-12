@@ -7,7 +7,7 @@ GYMNOSPERM_GENERA = {
 }
 
 # Read the wood density dictionary
-with open('wood_density_dictionary.json', 'r') as f:
+with open('woodDensityDictionnary.json', 'r') as f:
     wood_density_dict = json.load(f)
 
 # Create species target type dictionary

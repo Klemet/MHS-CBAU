@@ -735,7 +735,7 @@ print("    MHS-CBAU : Harvesting stands with non-commercial treatments...")
 
 for nonCommercialTreatment in harvestTargetsDict["area"]:
     # We initialize the counter of the harvested surface
-    areaTargetToReach = harvestTargetsDict["area"][nonCommercialTreatment]
+    areaTargetToReach = harvestTargetsDict["area"][nonCommercialTreatment] * timestepLength
     counterAreaHarvested = 0
     cellsToHectare = CELL_SIZE*CELL_SIZE / 10000
     
