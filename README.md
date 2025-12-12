@@ -41,9 +41,9 @@ I recommand you do the following :
 If you don't have the time to read the workshops (which I heavily recommand), here is the quick step-by-step to get everything ready for your LANDIS-II simulation :
 
 
-1. **Install Biomass Harvest and Magic Harvest in your computer.**
+1. **Install the LANDIS-II extensions Biomass Harvest, Magic Harvest and Output Biomass Community in your computer.**
 
-See the [Biomass Harvest repository](https://github.com/LANDIS-II-Foundation/Extension-Biomass-Harvest) and the [Magic Harvest repository](https://github.com/Klemet/LANDIS-II-Magic-Harvest) for the installers.
+See the [Biomass Harvest repository](https://github.com/LANDIS-II-Foundation/Extension-Biomass-Harvest), the [Magic Harvest repository](https://github.com/Klemet/LANDIS-II-Magic-Harvest) and the [Output Biomass Communit repository](https://github.com/LANDIS-II-Foundation/Extension-Output-Biomass-Community) for the installers.
 
 * * *
 
@@ -136,7 +136,29 @@ The scripts will output two files you need to keep at hand : `EcozonesRaster.tif
 
 * * *
 
-10. **Copy and paste all of the necessary files to include MHS-CBAU in your LANDIS-II simulation**
+10. **Prepare the Output Biomass Community parameter file**
+
+The Output Biomass Community extension is vital to making the scripts of MHS-CBAU work. This extension outputs two files at each time step - a csv file and a raster file - which contain the composition of your LANDIS-II landscape in the same format as the initial condition raster and csv/text file you use to initialize LANDIS-II.
+
+The MHS-CBAU script will read these file in order to get the current state of the landscape at each time step.
+
+At the time of writing this, Output Biomass Community doesn't have any parameter except from the timestep at which it runs. Therefore, just write a text file with the following :
+
+```
+LandisData  "Output Biomass Community"
+
+Timestep   X
+```
+
+Replace "X" with the timestep you are using for Magic Harvest and Biomass Harvest (**it must be the same timestep**).
+
+The outputs of Output Biomass Community are very large, but the MHS-CBAU script has some lines to remove these files once the timestep is over. You can edit the parameter DELETE_COMMUNITIES_FILES in `MHS-CBAU_MainScript.py` to change this.
+
+**Be certain to write in your LANDIS-II scenario file that your scenario should use Output Biomass Community**.
+
+* * *
+
+11. **Copy and paste all of the necessary files to include MHS-CBAU in your LANDIS-II simulation**
 
 You're almost done ! It's all about copying/pasting some files and writting down some paths in them now.
 
