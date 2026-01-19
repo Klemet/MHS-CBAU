@@ -6,7 +6,6 @@
 
 </br></br>
 
-
 ## 💽 What is MHS-CBAU ?
 
 MHS-CBAU is a an approach to simulate a Business-As-Usual forest management in Canadian lanscapes that are simulated with the [LANDIS-II](https://www.landis-ii.org/) model and its [Magic Harvest](https://github.com/Klemet/LANDIS-II-Magic-Harvest) extension. **In essence, it is made to simulate harvesting in LANDIS-II simulations in Canadian landscapes**.
@@ -30,9 +29,9 @@ The repository also contains a complete documentation in a web format and powerp
 I recommand you do the following :
 
 1. Take a look at the [Magic Harvest Workshop](https://klemet.github.io/Workshop-MagicHarvest/) if you haven't already (important to understand how Magic Harvest works, which is essential to use MHS-CBAU). **Estimated time of reading : 2-4 hours**
-2. Take a look at the [MHS-CBAU workshop]() (*coming soon*) (important to understand the inputs of MHS-CBAU and its algorithm). **Estimated time of reading : 2-4 hours**
-3. Use the scripts in this repository to generate the inputs for your own study area, using the [MHS-CBAU workshop]() (*coming soon*) as a guide.
-4. (Optional but recommanded) use a Python interactive terminal (I recommand to use [Spyder](https://www.spyder-ide.org/)) to test the MHS-CBAU Python script outside of a LANDIS-II simulation to see if it works properly, and produces outputs that make sense for your study area. To do this, simply run a LANDIS-II simulation without MHS-CBAU activated (doing it for a single timestep is enough). Then, use the outputs of LANDIS-II and the debug mode of the MHS-CBAU Python script to test the script as if it was running during the timestep of LANDIS-II for which you have generated outputs. More is shown in the [MHS-CBAU workshop]() (*coming soon*).
+2. Take a look at the [MHS-CBAU workshop](https://klemet.github.io/MHS-CBAU) (important to understand the inputs of MHS-CBAU and its algorithm). **Estimated time of reading : 2-4 hours**
+3. Use the scripts in this repository to generate the inputs for your own study area, using the [MHS-CBAU workshop](https://klemet.github.io/MHS-CBAU) as a guide, or the step-by-step indicated below.
+4. (Optional but recommanded) use a Python interactive terminal (I recommand to use [Spyder](https://www.spyder-ide.org/)) to test the MHS-CBAU Python script outside of a LANDIS-II simulation to see if it works properly, and produces outputs that make sense for your study area. To do this, simply run a LANDIS-II simulation without MHS-CBAU activated (doing it for a single timestep is enough). Then, use the outputs of LANDIS-II and the debug mode of the MHS-CBAU Python script to test the script as if it was running during the timestep of LANDIS-II for which you have generated outputs. More is shown in the [MHS-CBAU workshop](https://klemet.github.io/MHS-CBAU).
 5. Insert the scripts and pre-generated intputs for MHS-CBAU in your LANDIS-II simulation files to start using MHS-CBAU during your simulations.
 
 
