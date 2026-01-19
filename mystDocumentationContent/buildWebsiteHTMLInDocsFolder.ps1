@@ -40,3 +40,5 @@ if (Test-Path -Path "_build") {
 
 # Output a message indicating the operation is complete
 Write-Host "All files and subdirectories have been successfully moved to the $destDir folder."
+
+pause

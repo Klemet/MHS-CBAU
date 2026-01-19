@@ -21,10 +21,7 @@ You will have to learn a bit of Python to code (you can also use AI models to he
 
 Luckily, Python makes this easier by being an interpreted language, and the scripts of MHS-CBAU contains a "debug mode" made especially so that you can test the scripts ! That’s what we’re going to check out quickly.
 
-:::{hint} Before you start
-If it's not done already, I recommand you take the time to properly install Python on your computer. This will be a time-saver. Check [the bonus section about installing Python](./06-BonusPythonInstall).
-:::
-
+**Before you start : If it's not done already, I recommand you take the time to properly install Python on your computer. This will be a time-saver. Check [the bonus section about installing Python](./05-BonusPythonInstall).
 
 ```{image} ./images/Slide45.jpg
 :width: 100%
@@ -37,9 +34,6 @@ Then, you just have to enable debug mode in the main MHS-CBAU script (`MHS-CBAU_
 
 Then, you can use Spyder – a free and open source software which is the equivalent of RStudio, but for Python – to run the script line by line, or section by section, allowing you to test it and debug it.
 
-:::{hint} If you don't have Spyder installed yet
-If you don't have Spyder installed on your computer yet, please check [the bonus section about installing Python](./06-BonusPythonInstall).
-:::
 
 ```{image} ./images/Slide46.jpg
 :width: 100%
@@ -49,10 +43,6 @@ If you don't have Spyder installed on your computer yet, please check [the bonus
 The interface of Spyder is extremely similar to R Studio : your script on the left, and a terminal to the right to see what happens when you run sections of the script, or just a single line. Spyder can be downloaded on the spyder website. It will create its own virtual environment; but by going into "Consoles", you can create a new terminal from a Python virtual environment or a Anaconda virtual environment. So you can easily create an environment with the 4 packages necessary for MHS-CBAU, and then open a terminal from this environment.
 
 From then on, you can run the code line by line, or section by section (`Shift` + `Enter` to run a code section in Spyder, which are defined by the caracters `#%%`). You can look at what the terminal writes; you can look at the variables in the variable explorer on the right; and you also have a profiler (see "Run" and then "Profile file" or "Profile cell" or "Profile line") to help you see what sections of the scripts take time to run, etc. Spyder is entirely free, open-source and super useful. It will help you a lot to do what you want to do if you have to customize MHS-CBAU.
-
-:::{warning} Getting errors in Spyder ?
-If you get errors in Spyder because the scripts of MHS-CBAU cannot access the Python package they need and you don't know how to install them, check [the bonus section about installing Python](./06-BonusPythonInstall).
-:::
 
 ```{image} ./images/Slide47.jpg
 :width: 100%

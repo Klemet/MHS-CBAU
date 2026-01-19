@@ -16,4 +16,10 @@
   <url>
     <loc>http://localhost:3000/customisation</loc>
   </url>
+  <url>
+    <loc>http://localhost:3000/conclusion</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/bonuspythoninstall</loc>
+  </url>
 </urlset>
