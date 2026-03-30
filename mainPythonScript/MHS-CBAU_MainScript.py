@@ -279,9 +279,12 @@ prescriptionParameters, timestepLength = MHS_CBAU.biomassHarvestParameterFilePar
 
 
 # Dynamic inputs (for the timestep)
-
+# UPDATE : Following the update of Output Biomass Community for LANDIS-II v8,
+# the extension only creates a single raster map, as it's always the same for each timestep.
+# The code was edited here to load this map.
+# Also : the map is now in .tif format rather than .img.
 standCompositionDict = MHS_CBAU.readVegetationInLandscape(COMMUNITIES_CSV_AND_MAP_FOLDER + "/community-input-file-" + str(timestep- timestepLength) + ".csv",
-                                                          COMMUNITIES_CSV_AND_MAP_FOLDER + "/output-community-" + str(timestep- timestepLength) + ".img",
+                                                          COMMUNITIES_CSV_AND_MAP_FOLDER + "/output-community-0.tif",
                                                           standCoordinatesDict,
                                                           disableTQDM)
 
@@ -880,8 +883,8 @@ MHS_CBAU.writeMHSCBAU_Log(timestep,
     
 # Removing vegetation communities files if needed
 if not DEBUG_MODE_ENABLED and DELETE_COMMUNITIES_FILES:
-    if os.path.exists("./output-community-" + str(timestep- timestepLength) + ".img"):
-        os.remove("./output-community-" + str(timestep- timestepLength) + ".img")
+    # We don't remove the .tif map of output biomass community anymore; only the .csv files, as the map is outputed once
+    # at the beginning as all maps are the same. See https://github.com/LANDIS-II-Foundation/Extension-Output-Biomass-Community/issues/9
     if os.path.exists("./community-input-file-" + str(timestep- timestepLength) + ".csv"):
         os.remove("./community-input-file-" + str(timestep- timestepLength) + ".csv")
     if os.path.exists(("./community-input-file-" + str(timestep- timestepLength) + ".csv")[0:-3] + "txt"):
