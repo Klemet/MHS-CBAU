@@ -411,7 +411,7 @@ def main():
             print(f"  Estimated study area harvest - Softwood: {study_softwood:.2f} m³, Hardwood: {study_hardwood:.2f} m³")
 
     # Calculate and display averages
-    with open('AnnualHarvestAnalysis_Output.txt', 'w') as f:
+    with open('AnnualHarvestAnalysis_Output.txt', 'w', encoding='utf-8') as f:
         print("\n" + "="*60, file=f)
         print("RESULTS - AVERAGE ANNUAL HARVEST VOLUMES", file=f)
         print("="*60, file=f)
