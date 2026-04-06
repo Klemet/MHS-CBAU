@@ -27,7 +27,9 @@ cd $SLURM_TMPDIR/
 virtualenv --no-download PythonEnv
 source PythonEnv/bin/activate
 pip install --no-index --upgrade pip
-pip install --no-index rasterio numpy geopandas gdal
+# If GDAL returns an error here, it's most likely because newer versions of GDAL use numpy > 2.0
+# Simply change numpy<2.0 to just "numpy" and things should work out.
+pip install --no-index rasterio "numpy<2.0" geopandas gdal msgpack
 
 # Launching the scripts
 python -u 3.processNFI_Rasters.py
