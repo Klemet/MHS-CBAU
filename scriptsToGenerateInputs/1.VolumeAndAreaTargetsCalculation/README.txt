@@ -12,7 +12,7 @@
 
 - If running the scripts on a Digital Research Alliance/Compute Canada cluster :
 	- Upload all of the files in your cluster, in a given folder of your choice
-	- Connect to the cluster via a terminal, go to the folder, load python, and run the script 1 and 2.
+	- Connect to the cluster via a terminal, go to the folder, load python, and run the script 1 (don't run script 2 !).
 	- Then, rename the words YOUR_CLUSTER_ACCOUNT_HERE and YOUR_EMAIL_HERE in the job script job_script_MHS-CBAU_VolumeTargetComputation.sh, and launch the script as a job using the "sbatch" command. Let the job run its course.
 	- You should find the outputs in AnnualHarvestAnalysis_Output.txt in the main folder where the python scripts are. If you didn't, there has been an error; open the .out file corresponding to the job to see what happened.
 
